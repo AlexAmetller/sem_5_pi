@@ -1,6 +1,6 @@
 # SEM_5_PI_80
 
-Projeto Integrador 5, ano 2022/1 -
+Projeto Integrador 5, ano 2022/2023 -
 [Documentacão](./doc/index.md) | [Backlog](./doc/backlog.md) | [Review](./doc/review.md) | [Guia de contribuicão](./CONTRIBUTING.md) | [Requisitos](./doc/requirements)
 
 ## Deployments:
