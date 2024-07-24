@@ -1,0 +1,15 @@
+@startuml
+actor "Gestor de Frota" as A
+participant "<i><<System>></i>ElectricGo" as S
+
+alt Listar todos os Camiões
+
+	A -> S: Realiza o pedido de listagem de Camiões
+	S --> A: Apresenta uma lista com todos os Camiões
+
+else Listar um Camião por Id
+
+	A -> S: Realiza o pedido de listagem de um Camião pelo Id
+	S --> A: Apresenta todos os dados do Camião solicitado
+
+@enduml

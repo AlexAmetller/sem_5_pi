@@ -1,0 +1,138 @@
+pipelines:
+  pull-requests:
+    '**':
+      - parallel:
+          - step:
+              name: Build and Test Logistics
+              image: node:19
+              caches:
+                - node
+              script:
+                - cd Logistics
+                - npm install
+                - npm test
+                - npm run lint
+                - npm run build
+          - step:
+              name: Build and Test Authz
+              image: node:19
+              caches:
+                - node
+              script:
+                - cd Authz
+                - npm install
+                - npm test
+                - npm run lint
+                - npm run build
+          - step:
+              name: Build and Test WarehouseManagement
+              image: mcr.microsoft.com/dotnet/sdk:6.0
+              caches:
+                - dotnetcore
+              script:
+                - cd WarehouseManagement
+                - dotnet restore
+                - dotnet build --no-restore --configuration Release
+                - dotnet test
+          - step:
+              name: Build and Test SPA
+              image: node:19
+              caches:
+                - node
+              script:
+                - cd SPA
+                - npm install
+                - npm test
+                - npm run lint
+                - npm run build
+
+  branches:
+    master:
+      - parallel:
+          steps:
+            - step:
+                name: Build and Test Logistics
+                image: node:19
+                caches:
+                  - node
+                script:
+                  - cd Logistics
+                  - npm install
+                  - npm test
+                  - npm run lint
+                  - npm run build
+            - step:
+                name: Build and Test Authz
+                image: node:19
+                caches:
+                  - node
+                script:
+                  - cd Authz
+                  - npm install
+                  - npm test
+                  - npm run lint
+                  - npm run build
+            - step:
+                name: Build and Test WarehouseManagement
+                image: mcr.microsoft.com/dotnet/sdk:6.0
+                caches:
+                  - dotnetcore
+                script:
+                  - cd WarehouseManagement
+                  - dotnet restore
+                  - dotnet build --no-restore --configuration Release
+                  - dotnet test
+            - step:
+                name: Build and Test SPA
+                image: node:19
+                caches:
+                  - node
+                script:
+                  - cd SPA
+                  - npm install
+                  - npm test
+                  - npm run lint
+                  - npm run build
+
+      - parallel:
+          steps:
+            - step:
+                name: Build and Deploy SPA image to Azure
+                services:
+                  - docker
+                script:
+                  - docker login eletricacmeg80.azurecr.io -u $AZURE_USERNAME -p $AZURE_PASSWORD
+                  - docker build -t eletricacmeg80.azurecr.io/eletricacmeg80/spa ./SPA
+                  - docker push eletricacmeg80.azurecr.io/eletricacmeg80/spa
+            - step:
+                name: Build and Deploy Logistics image to Azure
+                services:
+                  - docker
+                script:
+                  - docker login eletricacmeg80.azurecr.io -u $AZURE_USERNAME -p $AZURE_PASSWORD
+                  - docker build -t eletricacmeg80.azurecr.io/eletricacmeg80/logistics ./Logistics
+                  - docker push eletricacmeg80.azurecr.io/eletricacmeg80/logistics
+            - step:
+                name: Build and Deploy Authz image to Azure
+                services:
+                  - docker
+                script:
+                  - docker login eletricacmeg80.azurecr.io -u $AZURE_USERNAME -p $AZURE_PASSWORD
+                  - docker build -t eletricacmeg80.azurecr.io/eletricacmeg80/authz ./Authz
+                  - docker push eletricacmeg80.azurecr.io/eletricacmeg80/authz
+            - step:
+                name: Build and Deploy Warehouse image to Azure
+                services:
+                  - docker
+                script:
+                  - docker login eletricacmeg80.azurecr.io -u $AZURE_USERNAME -p $AZURE_PASSWORD
+                  - docker build -t eletricacmeg80.azurecr.io/eletricacmeg80/warehouse ./WarehouseManagement
+                  - docker push eletricacmeg80.azurecr.io/eletricacmeg80/warehouse
+            - step:
+                name: Build and Deploy Planning image to Azure
+                services:
+                  - docker
+                script:
+                  - docker login eletricacmeg80.azurecr.io -u $AZURE_USERNAME -p $AZURE_PASSWORD
+                  - docker build -t eletricacmeg80.azurecr.io/eletricacmeg80/planning ./Planning
+                  - docker push eletricacmeg80.azurecr.io/eletricacmeg80/planning

@@ -1,0 +1,165 @@
+services:
+
+  # | Service              | Image         | Port  |
+  # | ---                  | ---           | ---   |
+  # | spa-app              | node          | 3000  |
+  # | warehouse-app        | dotnet sdk    | 3001  |
+  # | logistics-app        | node          | 3002  |
+  # | planning-app         | swipl         | 3003  |
+  # | authz-app            | node          | 3004  |
+  # | warehouse-dashboard  | mongo-express | 3011  |
+  # | logitstics-dashboard | pgadmin4      | 3012  |
+  # | warehouse-db         | postgresql    | 5432  |
+  # | logistics-db         | mongodb       | 27017 |
+
+  warehouse-db:
+    image: postgres:14-alpine
+    restart: always
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+    ports:
+      - 5432:5432
+    networks:
+      - lapr5
+
+  warehouse-dashboard:
+    image: dpage/pgadmin4
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=user@admin.com
+      - PGADMIN_DEFAULT_PASSWORD=password
+    ports:
+      - 3011:80
+    volumes:
+      - lapr5:/var/lib/pgadmin
+    networks:
+      - lapr5
+    depends_on:
+      - warehouse-db
+
+  warehouse-app:
+    image: mcr.microsoft.com/dotnet/sdk:6.0
+    command: dotnet watch run --project /app/API/API.csproj --no-launch-profile
+    environment:
+      - ASPNETCORE_URLS=http://+:3001
+      - ConnectionStrings__Database=User ID=user;Password=password;Host=warehouse-db;Port=5432;Database=postgres;Pooling=true;
+      - Jwt__PublicKey=MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE72qzknXhCtUt/WiI22CM3FKC41ES/c5M/zdhSOKqH7ZFBhlm7QOc0gNvBjByJpHV2Gb0pxMPEQ3Hprih0wDQHg==
+    volumes:
+      - ./WarehouseManagement:/app
+      - /app/API/bin/
+      - /app/API/obj/
+      - /app/Application/bin/
+      - /app/Application/obj/
+      - /app/Domain/bin/
+      - /app/Domain/obj/
+      - /app/Infrastructure/bin/
+      - /app/Infrastructure/obj/
+    ports:
+      - 3001:3001
+    networks:
+      - lapr5
+    depends_on:
+      - warehouse-db
+
+  logistics-db:
+    image: mongo:4.4.6
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+    ports:
+      - 27017:27017
+    networks:
+      - lapr5
+
+  logistics-dashboard:
+    image: mongo-express
+    restart: always
+    ports:
+      - 3012:8081
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: root
+      ME_CONFIG_MONGODB_ADMINPASSWORD: example
+      ME_CONFIG_MONGODB_URL: mongodb://root:example@logistics-db:27017/
+    networks:
+      - lapr5
+    depends_on:
+      - logistics-db
+
+  logistics-app:
+    image: node:19-alpine
+    command: npm run --prefix app start
+    volumes:
+      - ./Logistics:/app
+    environment:
+      - NODE_ENV=development
+      - PORT=3002
+      - HOST=localhost:3002
+      - MONGODB_URI=mongodb://root:example@logistics-db:27017/
+      - LOG_LEVEL=info
+      - WAREHOUSE_URL=http://warehouse-app:3001
+      - PLANNING_URL=http://swipl-app:3003
+      - JWT_PUBLIC_KEY=-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE72qzknXhCtUt/WiI22CM3FKC41ES\n/c5M/zdhSOKqH7ZFBhlm7QOc0gNvBjByJpHV2Gb0pxMPEQ3Hprih0wDQHg==\n-----END PUBLIC KEY-----
+      - JWT_ALGORITHM=ES256
+    ports:
+      - 3002:3002
+    networks:
+      - lapr5
+    depends_on:
+      - logistics-db
+
+  spa-app:
+    image: node:19-alpine
+    command: npm start --prefix app
+    volumes:
+      - ./SPA:/app
+    environment:
+      - PORT=3000
+      - WAREHOUSE_URL=http://warehouse-app:3001
+      - LOGISTICS_URL=http://logistics-app:3002
+      - GOOGLE_CLIENT_ID=650677185921-c7jubuh95oe93bqhhk132ecq18h3f40g.apps.googleusercontent.com
+    ports:
+      - 3000:3000
+    networks:
+      - lapr5
+
+  swipl-app:
+    image: swipl:stable
+    command: bash -c 'apt update; yes | apt install inotify-tools; cd app; ./restart.sh'
+    volumes:
+      - ./Planning:/app
+    ports:
+      - 3003:3003
+    environment:
+      - PORT=3003
+    networks:
+      - lapr5
+
+  authz-app:
+    image: node:19-alpine
+    command: npm run --prefix app start
+    volumes:
+      - ./Authz:/app
+    environment:
+      - NODE_ENV=development
+      - PORT=3004
+      - HOST=localhost:3004
+      - MONGODB_URI=mongodb://root:example@logistics-db:27017/
+      - LOG_LEVEL=info
+      - JWT_PRIVATE_KEY=-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIDPYhJfTkikuDKd4pHrG1KazQwTzDe8jVPD85hDbrSIgoAoGCCqGSM49\nAwEHoUQDQgAE72qzknXhCtUt/WiI22CM3FKC41ES/c5M/zdhSOKqH7ZFBhlm7QOc\n0gNvBjByJpHV2Gb0pxMPEQ3Hprih0wDQHg==\n-----END EC PRIVATE KEY-----
+      - JWT_ALGORITHM=ES256
+      - GOOGLE_CLIENT_ID=650677185921-c7jubuh95oe93bqhhk132ecq18h3f40g.apps.googleusercontent.com
+    ports:
+      - 3004:3004
+    networks:
+      - lapr5
+    depends_on:
+      - logistics-db
+
+networks:
+  lapr5:
+    driver: bridge
+
+volumes:
+  lapr5:
+    driver: local

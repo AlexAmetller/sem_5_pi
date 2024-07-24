@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1350px" preserveAspectRatio="none" style="width:702px;height:1350px;background:#FFFFFF;" version="1.1" viewBox="0 0 702 1350" width="702px" zoomAndPan="magnify"><defs/><g><!--MD5=[c3bf9c79f336e49cfefa7a9535eee252]
+cluster W--><g id="cluster_W"><rect height="1231" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;fill:none;" width="488" x="7.5" y="113"/><rect height="10" style="stroke:#181818;stroke-width:1.0;fill:none;" width="15" x="475.5" y="118"/><rect height="2" style="stroke:#181818;stroke-width:1.0;fill:none;" width="4" x="473.5" y="120"/><rect height="2" style="stroke:#181818;stroke-width:1.0;fill:none;" width="4" x="473.5" y="124"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="74" x="214.5" y="140.9659">«container»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="212.5" y="160.0339">Warehouse</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="92" x="205.5" y="179.1018">Management</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="4" x="249.5" y="198.1697"> </text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="4" x="249.5" y="217.2376"> </text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="4" x="249.5" y="236.3055"> </text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="4" x="249.5" y="255.3734"> </text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="4" x="249.5" y="274.4414"> </text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="4" x="249.5" y="293.5093"> </text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="4" x="249.5" y="312.5772"> </text></g><!--MD5=[df2708cf79b593e81af1325fac256421]
+cluster Framework and Drivers--><g id="cluster_Framework and Drivers"><rect height="122" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;fill:none;" width="315" x="31.5" y="204.5"/><path d="M204.5,204.5 L204.5,216.5679 L194.5,226.5679 L31.5,226.5679 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="163" x="34.5" y="220.4659">Framework and Drivers</text></g><!--MD5=[5a2c09c7a25dd2d50c87c8f70ce7edbd]
+cluster Interface Adapters--><g id="cluster_Interface Adapters"><rect height="122" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;fill:none;" width="315" x="127.5" y="634"/><path d="M266.5,634 L266.5,646.0679 L256.5,656.0679 L127.5,656.0679 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="129" x="130.5" y="649.9659">Interface Adapters</text></g><!--MD5=[d64883541e3d62e3241c4d12decf100d]
+cluster Application--><g id="cluster_Application"><rect height="122" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;fill:none;" width="156" x="207.5" y="918"/><path d="M296.5,918 L296.5,930.0679 L286.5,940.0679 L207.5,940.0679 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="210.5" y="933.9659">Application</text></g><!--MD5=[121a8bf1197281ab89ed693fab589f94]
+cluster Domain--><g id="cluster_Domain"><rect height="122" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;fill:none;" width="170" x="287.5" y="1198"/><path d="M351.5,1198 L351.5,1210.0679 L341.5,1220.0679 L287.5,1220.0679 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="54" x="290.5" y="1213.9659">Domain</text></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="186.5" y="90.898"> </text><rect fill="#181818" height="12" style="stroke:#F1F1F1;stroke-width:1.5;" width="12" x="182.5" y="107"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="493.5" y="414.398"> </text><rect fill="#181818" height="12" style="stroke:#F1F1F1;stroke-width:1.5;" width="12" x="489.5" y="430.5"/><!--MD5=[a68f83bd3a84e0659eeb7f1aaac07a3f]
+entity Schema--><g id="elem_Schema"><rect fill="#F1F1F1" height="87.2038" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="124" x="196.5" y="500"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="300.5" y="505"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="298.5" y="507"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="298.5" y="511"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="211.5" y="534.9659">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="215" y="554.0339">Schema</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="215" y="573.1018">Data Model</text></g><!--MD5=[91bd059a22915453171d3be9dc5b0d6e]
+entity IController--><g id="elem_IController"><ellipse cx="52.5" cy="543.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="6" y="575.4659">Controller API</text></g><!--MD5=[18103933e701916b6664b48e2fc15ba7]
+entity ISchema--><g id="elem_ISchema"><ellipse cx="152.5" cy="543.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="101" y="575.4659">Data Model API</text></g><!--MD5=[60102b2f7329d8e6ba253511093fd341]
+entity IPersistence--><g id="elem_IPersistence"><ellipse cx="414.5" cy="543.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="363" y="575.4659">Persistence API</text></g><!--MD5=[97de1061a0ab8445a0a4bfc3e13b8318]
+entity DTO--><g id="elem_DTO"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="124" x="23.5" y="803"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="127.5" y="808"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="125.5" y="810"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="125.5" y="814"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="38.5" y="837.9659">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="66" y="857.0339">DTO</text></g><!--MD5=[889d9fdb0fb3e64e60d6281914a8c487]
+entity IDTO--><g id="elem_IDTO"><ellipse cx="191.5" cy="837" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="159.5" y="868.9659">DTO API</text></g><!--MD5=[6b3035cb4ba8d474fa99dfd80243dbb0]
+entity IService--><g id="elem_IService"><ellipse cx="264.5" cy="837" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="227.5" y="868.9659">Service API</text></g><!--MD5=[d8299e5e0613ae77ab0168f886fab789]
+entity IRepository--><g id="elem_IRepository"><ellipse cx="364.5" cy="837" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="316" y="868.9659">Repository API</text></g><!--MD5=[d1e665de45cd72bef3a2af32bebd650c]
+entity IModel--><g id="elem_IModel"><ellipse cx="372.5" cy="1119" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="338.5" y="1150.9659">Model API</text></g><!--MD5=[7a980fe5388f2c0b48dbfb0a8ec1f254]
+entity Routing--><g id="elem_Routing"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="124" x="47.5" y="242.5"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="151.5" y="247.5"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="149.5" y="249.5"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="149.5" y="253.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="62.5" y="277.4659">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="78" y="296.5339">Routing</text></g><!--MD5=[e7b4ba715b9378c57f39440bbe1913bc]
+entity Persistence--><g id="elem_Persistence"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="124" x="206.5" y="242.5"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="310.5" y="247.5"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="308.5" y="249.5"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="308.5" y="253.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="221.5" y="277.4659">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="225" y="296.5339">Persistence</text></g><!--MD5=[f855680bc6c989572ebb25245d27968d]
+entity Controller--><g id="elem_Controller"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="124" x="143.5" y="672"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="247.5" y="677"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="245.5" y="679"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="245.5" y="683"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="158.5" y="706.9659">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="167" y="726.0339">Controller</text></g><!--MD5=[4e260e4024c27e03c495c33059d2b5ff]
+entity Repository--><g id="elem_Repository"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="124" x="302.5" y="672"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="406.5" y="677"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="404.5" y="679"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="404.5" y="683"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="317.5" y="706.9659">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="324" y="726.0339">Repository</text></g><!--MD5=[17737e49c286898813382e12d6080e03]
+entity Service--><g id="elem_Service"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="124" x="223.5" y="956"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="327.5" y="961"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="325.5" y="963"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="325.5" y="967"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="238.5" y="990.9659">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="256.5" y="1010.0339">Service</text></g><!--MD5=[d98cb1d0eeb2b90d1ef52cfc0fcf4fea]
+entity Model--><g id="elem_Model"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="138" x="303.5" y="1236"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="421.5" y="1241"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="419.5" y="1243"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="419.5" y="1247"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="325.5" y="1270.9659">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="318.5" y="1290.0339">Domain Model</text></g><!--MD5=[65ef227b705095303af0b260d47751a6]
+entity WI--><g id="elem_WI"><ellipse cx="188.5" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="137.5" y="45.9659">Warehouse API</text></g><!--MD5=[f9ba5bf973e7832d2ce5ed59077b93f7]
+entity DB--><g id="elem_DB"><path d="M589.5,413 C589.5,403 637.5,403 637.5,403 C637.5,403 685.5,403 685.5,413 L685.5,460.1358 C685.5,470.1358 637.5,470.1358 637.5,470.1358 C637.5,470.1358 589.5,470.1358 589.5,460.1358 L589.5,413 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M589.5,413 C589.5,423 637.5,423 637.5,423 C637.5,423 685.5,423 685.5,413 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="599.5" y="441.9659">Warehouse</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="599.5" y="461.0339">Database</text></g><!--MD5=[0b2727990a395ea2c6d1bd35a097b3f6]
+entity IDB--><g id="elem_IDB"><ellipse cx="545.5" cy="436.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[ac55e252bd77f1c67391ebb2fa4b22e2]
+link Routing to Persistence--><!--MD5=[6936fb5a78dc3339c78a700e4bf177e6]
+link IController to ISchema--><!--MD5=[7abc85085afa943b0682ef1dedab743b]
+link IDTO to IService--><!--MD5=[fc3f186517efcb96df6e6b4070672dc0]
+link WI to piW--><g id="link_WI_piW"><path d="M188.5,23.27 C188.5,42.7 188.5,90.8 188.5,106.76 " fill="none" id="WI-piW" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[40ef5e537372da20202beceb3b318115]
+link piW to Routing--><g id="link_piW_Routing"><path d="M186.05,119.01 C177.41,136.66 147.87,197.06 128.11,237.45 " fill="none" id="piW-to-Routing" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="125.75,242.28,133.2881,235.9415,127.9401,237.7852,126.0964,232.4372,125.75,242.28" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c1911ce18ebaad351483a7cf1af8b3b5]
+link ISchema to Schema--><g id="link_ISchema_Schema"><path d="M161.61,543.5 C173.22,543.5 184.82,543.5 196.43,543.5 " fill="none" id="ISchema-Schema" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[66bb1297da882820ea2646a043b37e9e]
+link DTO to IDTO--><g id="link_DTO_IDTO"><path d="M147.61,837 C159.15,837 170.7,837 182.24,837 " fill="none" id="DTO-IDTO" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[eaf72d4f6bd3c4951de8111896b33247]
+link Persistence to ISchema--><g id="link_Persistence_ISchema"><path d="M254.04,310.53 C227.2,371.85 171.03,500.17 156.17,534.12 " fill="none" id="Persistence-ISchema" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[25afa4fdb8606fe88a7c27e0e2e3168f]
+link Persistence to IPersistence--><g id="link_Persistence_IPersistence"><path d="M277.81,310.59 C289.91,350.42 313.46,418.36 346.5,470 C363.61,496.75 391.25,522.5 405.45,534.87 " fill="none" id="Persistence-IPersistence" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[530ac2aef6276fb3fba293782229bcc2]
+reverse link ISchema to Repository--><g id="link_ISchema_Repository"><path d="M157.78,557.1 C162.31,566.51 169.65,579.06 179.5,587 C218.57,618.51 243.21,598.95 285.5,626 C304.78,638.33 323.07,656.08 337.19,671.63 " fill="none" id="ISchema-backto-Repository" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="155.68,552.51,155.8,562.3581,157.7662,557.054,163.0704,559.0202,155.68,552.51" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9e4238d84002286bc136a74886eea02f]
+link IService to Service--><g id="link_IService_Service"><path d="M265.63,846.12 C268.46,866.46 275.97,920.5 280.91,955.98 " fill="none" id="IService-Service" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[be88eef93fe64ca87b57f28860a4b616]
+link Repository to IRepository--><g id="link_Repository_IRepository"><path d="M364.5,740.22 C364.5,769.63 364.5,810.5 364.5,827.77 " fill="none" id="Repository-IRepository" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e85233469879d77b5cbc4985a6717777]
+link IController to Controller--><g id="link_IController_Controller"><path d="M60.3,552.68 C80.94,574.34 137.9,634.09 174.04,672 " fill="none" id="IController-Controller" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e4d669e0bedd5426a660195b17a33d34]
+link IModel to Model--><g id="link_IModel_Model"><path d="M372.5,1128.01 C372.5,1147.96 372.5,1200.76 372.5,1235.78 " fill="none" id="IModel-Model" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f8f95c300103b91382bef671248865e7]
+link Routing to IController--><g id="link_Routing_IController"><path d="M102.4,310.53 C89.82,368.98 64.16,488.29 55.46,528.74 " fill="none" id="Routing-to-IController" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="54.3,534.12,60.1081,526.166,55.3545,529.2325,52.288,524.4788,54.3,534.12" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6fb4b3661254d90496fa69290739a4dd]
+reverse link IPersistence to Repository--><g id="link_IPersistence_Repository"><path d="M410.46,557.48 C402.76,582.18 385.81,636.61 374.78,672 " fill="none" id="IPersistence-backto-Repository" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="411.95,552.68,405.4615,560.0894,410.4676,557.4552,413.1017,562.4613,411.95,552.68" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9c897b305c82a7461345e9bd741cb263]
+link Controller to IService--><g id="link_Controller_IService"><path d="M220.69,740.22 C232.99,767.11 249.66,803.56 258.47,822.82 " fill="none" id="Controller-to-IService" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="260.74,827.77,260.6317,817.9217,258.6592,823.2236,253.3574,821.251,260.74,827.77" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2fee58cef7d802c3106c8e7d4dacd06e]
+link Controller to IDTO--><g id="link_Controller_IDTO"><path d="M201.89,740.22 C199,766.88 195.09,802.94 192.98,822.32 " fill="none" id="Controller-to-IDTO" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="192.39,827.77,197.3433,819.2574,192.9328,822.7995,189.3906,818.389,192.39,827.77" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7ee1597040be61e1b178b2cf94a29293]
+reverse link IDTO to Service--><g id="link_IDTO_Service"><path d="M199.34,850.6 C213.63,873.55 244.32,922.85 264.94,955.98 " fill="none" id="IDTO-backto-Service" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="196.55,846.12,197.9132,855.8741,199.1936,850.364,204.7036,851.6443,196.55,846.12" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8221dade2a673b70e82963f7483c77b0]
+reverse link IRepository to Service--><g id="link_IRepository_Service"><path d="M357.91,850.6 C345.9,873.55 320.11,922.85 302.78,955.98 " fill="none" id="IRepository-backto-Service" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="360.25,846.12,352.5446,852.2541,357.9401,850.5544,359.6397,855.9499,360.25,846.12" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0a6443ed9796df5f5fd24d7ad8bc7f23]
+link Service to IModel--><g id="link_Service_IModel"><path d="M308.13,1024.04 C326.42,1050.73 351.15,1086.84 363.99,1105.57 " fill="none" id="Service-to-IModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="366.98,1109.94,365.1931,1100.2546,364.154,1105.8152,358.5934,1104.7762,366.98,1109.94" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0b8269743c18d830e8a0a88b4c1fc2d4]
+link Repository to IModel--><g id="link_Repository_IModel"><path d="M398.85,740.12 C414.14,757.26 430.49,779.5 438.5,803 C477.28,916.82 404.22,1061.88 379.95,1105.22 " fill="none" id="Repository-to-IModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="377.37,1109.77,385.2896,1103.9151,379.8369,1105.4209,378.3311,1099.9681,377.37,1109.77" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[711aab7c42b0c6b95398103c27442d39]
+link Persistence to poW--><g id="link_Persistence_poW"><path d="M283.31,310.86 C294.39,331.94 311.59,357.95 334.5,373 C391.69,410.56 434.71,357.16 485.5,403 C491.79,408.67 494.17,418.19 495.05,425.47 " fill="none" id="Persistence-to-poW" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="495.46,430.49,498.6988,421.1889,495.0448,425.5073,490.7264,421.8533,495.46,430.49" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ba5fea36474d6fb49fc3de44f6d566e5]
+link poW to IDB--><g id="link_poW_IDB"><path d="M501.75,436.5 C511.55,436.5 521.35,436.5 531.15,436.5 " fill="none" id="poW-to-IDB" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="536.27,436.5,527.27,432.5,531.27,436.5,527.27,440.5,536.27,436.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[529c2837a81e9b70bb50d5eb190dfd2c]
+link IDB to DB--><g id="link_IDB_DB"><path d="M554.84,436.5 C566.36,436.5 577.88,436.5 589.39,436.5 " fill="none" id="IDB-DB" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e18fb62d3931ca24f4c75e06c1ee0fcf]
+@startuml
+
+interface "Warehouse API" as WI
+
+component "Warehouse\nManagement\n\n\n\n\n\n\n" <<container>> as W {
+	portin " " as piW
+	portout " " as poW
+
+	frame "Framework and Drivers" {
+		component "Routing" <<component>> as Routing
+		component "Persistence" <<component>> as Persistence
+                Routing -[hidden]right- Persistence
+	}
+
+	component "Schema\nData Model" <<component>> as Schema
+	interface "Controller API" as IController
+	interface "Data Model API" as ISchema
+	interface "Persistence API" as IPersistence
+	IController -[hidden]right- ISchema: "               "
+
+	'Layer 2
+	frame "Interface Adapters" {
+		component "Controller" <<component>> as Controller
+		component "Repository" <<component>> as Repository
+	}
+
+	component "DTO" <<component>> as DTO
+	interface "DTO API\t" as IDTO
+	interface "Service API" as IService
+	interface "Repository API" as IRepository
+	IService -[hidden]left- IDTO: "      "
+
+	frame "Application" {
+		component "Service" <<component>> as Service
+	}
+
+	interface "Model API" as IModel
+
+	frame "Domain" {
+		component "Domain Model" <<component>> as Model
+	}
+}
+
+
+
+
+WI -down- piW
+piW -down-> Routing
+
+Schema -left- ISchema
+DTO -right- IDTO
+
+Persistence -down- ISchema
+Persistence -down- IPersistence
+Repository -up-> ISchema
+
+Service -up- IService
+Repository -down- IRepository
+Controller -up- IController
+Model -up- IModel
+
+
+
+Routing -down-> IController
+Repository -up-> IPersistence
+Controller -down-> IService
+Controller -down-> IDTO
+Service -up-> IDTO
+Service -up-> IRepository
+Service -down-> IModel
+Repository -down-> IModel
+
+database "Warehouse\nDatabase" as DB
+interface " " as IDB
+
+Persistence -right-> poW
+poW -right-> IDB
+IDB -right- DB
+
+@enduml
+
+@startuml
+
+interface "Warehouse API" as WI
+
+component "Warehouse\nManagement\n\n\n\n\n\n\n" <<container>> as W {
+	portin " " as piW
+	portout " " as poW
+
+	frame "Framework and Drivers" {
+		component "Routing" <<component>> as Routing
+		component "Persistence" <<component>> as Persistence
+                Routing -[hidden]right- Persistence
+	}
+
+	component "Schema\nData Model" <<component>> as Schema
+	interface "Controller API" as IController
+	interface "Data Model API" as ISchema
+	interface "Persistence API" as IPersistence
+	IController -[hidden]right- ISchema: "               "
+
+	frame "Interface Adapters" {
+		component "Controller" <<component>> as Controller
+		component "Repository" <<component>> as Repository
+	}
+
+	component "DTO" <<component>> as DTO
+	interface "DTO API\t" as IDTO
+	interface "Service API" as IService
+	interface "Repository API" as IRepository
+	IService -[hidden]left- IDTO: "      "
+
+	frame "Application" {
+		component "Service" <<component>> as Service
+	}
+
+	interface "Model API" as IModel
+
+	frame "Domain" {
+		component "Domain Model" <<component>> as Model
+	}
+}
+
+
+
+
+WI -down- piW
+piW -down-> Routing
+
+Schema -left- ISchema
+DTO -right- IDTO
+
+Persistence -down- ISchema
+Persistence -down- IPersistence
+Repository -up-> ISchema
+
+Service -up- IService
+Repository -down- IRepository
+Controller -up- IController
+Model -up- IModel
+
+
+
+Routing -down-> IController
+Repository -up-> IPersistence
+Controller -down-> IService
+Controller -down-> IDTO
+Service -up-> IDTO
+Service -up-> IRepository
+Service -down-> IModel
+Repository -down-> IModel
+
+database "Warehouse\nDatabase" as DB
+interface " " as IDB
+
+Persistence -right-> poW
+poW -right-> IDB
+IDB -right- DB
+
+@enduml
+
+PlantUML version 1.2022.6(Tue Jun 21 18:34:49 WEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

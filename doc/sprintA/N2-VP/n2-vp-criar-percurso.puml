@@ -1,0 +1,16 @@
+@startuml
+actor "Gestor de Armazéns" as A
+participant "<i><<Container>></i>\nUser Interface - SPA" as S
+participant "<i><<Container>></i>\nWarehouse Management" as W
+
+A -> S: Inicia o pedido de criacao de um Percurso
+S --> A: Solicita os dados do Percurso\n(<i>ID do Armazém de Destino, Data, Peso,</i>\n<i>Tempo Colocar, Tempo Retirar</i>)
+
+A -> S: Fornece os dados do Percurso
+S -> W: POST /armazem - criar Percurso
+W -> W: Valida os dados do Percurso
+W -> W: Regista o Percurso
+W --> S: 200 OK
+S --> A: Confirma que o Percurso foi criado com sucesso
+
+@enduml

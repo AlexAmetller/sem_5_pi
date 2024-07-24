@@ -1,0 +1,57 @@
+
+@startuml
+participant "User Interface" as UI
+participant "Router" as Router
+participant "PackagingController" as Controller
+participant "PackagingService" as Service
+
+participant "PackagingRepository" as Repository
+participant "PackagingMapper" as Mapper
+participant "PackagingCreateResponseDTO" as CreateResponseDTO
+participant "PackagingSchema" as Schema
+participant "PackagingModel" as Model
+participant "PackagingCreateRequestDTO" as CreateRequestDTO
+participant "Persistence" as Persistence
+
+
+UI -> Router: POST /Packaging (json)
+Router -> Controller: responseDTO =\ncreatePackaging(json)
+Controller -> Controller: validate(json)
+Controller -> Mapper: requestDTO = createCreateDTO()
+
+create CreateRequestDTO
+Mapper -> CreateRequestDTO: requestDTO: <<new>>
+
+Controller -> Service: responseDTO =\ncreate(requestDTO)
+
+Service -> Service: validate(requestDTO)
+Service -> Mapper: Packaging = toModel(requestDTO)
+
+create Model
+Mapper -> Model: Packaging: <<new>>
+
+Service -> Repository: entity =\nsave(Packaging)
+
+Repository -> Mapper: schema = toSchema(entity)
+
+create Schema
+Mapper -> Schema: schema: <<new>>
+
+Repository -> Persistence: persist(schema)
+
+Repository -> Mapper: entity = toModel(schema)
+Mapper -> Model: entity: <<new>>
+Repository --> Service: entity
+
+
+Service -> Mapper: responseDTO = createResponseDTO(entity)
+create CreateResponseDTO
+Mapper -> CreateResponseDTO: responseDTO <<new>>
+
+Service --> Controller: responseDTO
+
+Controller --> Router: responseDTO
+
+Router --> UI: HTTP 200 OK\njson(responseDTO)
+
+@enduml

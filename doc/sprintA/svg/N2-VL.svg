@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="621px" preserveAspectRatio="none" style="width:948px;height:621px;background:#FFFFFF;" version="1.1" viewBox="0 0 948 621" width="948px" zoomAndPan="magnify"><defs/><g><!--MD5=[e964c2537204c4818a6857a4ece8a291]
+cluster C--><g id="cluster_C"><rect height="502" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;fill:none;" width="535" x="225.5" y="113"/><rect height="10" style="stroke:#181818;stroke-width:1.0;fill:none;" width="15" x="740.5" y="118"/><rect height="2" style="stroke:#181818;stroke-width:1.0;fill:none;" width="4" x="738.5" y="120"/><rect height="2" style="stroke:#181818;stroke-width:1.0;fill:none;" width="4" x="738.5" y="124"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="57" x="464.5" y="140.9659">«system»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="69" x="458.5" y="160.0339">ElectricGo</text></g><!--MD5=[ee0fec323975fbe97ba28321ad4c4bf3]
+entity U--><g id="elem_U"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="174" x="241.5" y="180"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="395.5" y="185"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="393.5" y="187"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="393.5" y="191"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="74" x="286.5" y="214.9659">«container»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="256.5" y="234.0339">User Interface - SPA</text></g><!--MD5=[770389ab9df153645bc6ef28055eb2b5]
+entity A--><g id="elem_A"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="114" x="241.5" y="320"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="335.5" y="325"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="333.5" y="327"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="333.5" y="331"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="74" x="256.5" y="354.9659">«container»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="274" y="374.0339">Authz</text></g><!--MD5=[2b0f800f5e291cf066feaf8ec24b2082]
+entity W--><g id="elem_W"><rect fill="#F1F1F1" height="87.2038" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="130" x="394.5" y="512"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="504.5" y="517"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="502.5" y="519"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="502.5" y="523"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="74" x="417.5" y="546.9659">«container»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="409.5" y="566.0339">Warehouse</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="409.5" y="585.1018">Management</text></g><!--MD5=[1200cabd2a84086424de0b397dfd2f71]
+entity L--><g id="elem_L"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="114" x="503.5" y="180"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="597.5" y="185"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="595.5" y="187"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="595.5" y="191"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="74" x="518.5" y="214.9659">«container»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="526.5" y="234.0339">Logistics</text></g><!--MD5=[626ad08abde0879284d52f51a0eb42aa]
+entity P--><g id="elem_P"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="114" x="559.5" y="521.5"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="653.5" y="526.5"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="651.5" y="528.5"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="651.5" y="532.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="74" x="574.5" y="556.4659">«container»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="581.5" y="575.5339">Planning</text></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="244.5" y="90.898"> </text><rect fill="#181818" height="12" style="stroke:#F1F1F1;stroke-width:1.5;" width="12" x="240.5" y="107"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="326.5" y="90.898"> </text><rect fill="#181818" height="12" style="stroke:#F1F1F1;stroke-width:1.5;" width="12" x="322.5" y="107"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="445.5" y="90.898"> </text><rect fill="#181818" height="12" style="stroke:#F1F1F1;stroke-width:1.5;" width="12" x="441.5" y="107"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="582.5" y="90.898"> </text><rect fill="#181818" height="12" style="stroke:#F1F1F1;stroke-width:1.5;" width="12" x="578.5" y="107"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="758.5" y="261.898"> </text><rect fill="#181818" height="12" style="stroke:#F1F1F1;stroke-width:1.5;" width="12" x="754.5" y="278"/><!--MD5=[3f77536d44baa329b128c7832d6efa03]
+entity AI--><g id="elem_AI"><ellipse cx="399.5" cy="354" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[65ef227b705095303af0b260d47751a6]
+entity WI--><g id="elem_WI"><ellipse cx="470.5" cy="354" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[bf34a5dfb39ca9e097576484eab61a14]
+entity LI--><g id="elem_LI"><ellipse cx="459.5" cy="214" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[ba0835f5a9f3f23b4688f907097f0ace]
+entity PI--><g id="elem_PI"><ellipse cx="595.5" cy="354" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/></g><!--MD5=[9f3a4d22411ba4da425363dee472d6e6]
+entity IGA--><g id="elem_IGA"><ellipse cx="83.5" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="6" y="45.9659">UI Gestor de Armazéns</text></g><!--MD5=[d71bdcd1eddae83d7adfe21f16eab617]
+entity IGL--><g id="elem_IGL"><ellipse cx="284.5" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="211" y="45.9659">UI Gestor de Logística</text></g><!--MD5=[d82522643ea151338755f29f7aa7f11b]
+entity IGF--><g id="elem_IGF"><ellipse cx="469.5" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="408.5" y="45.9659">UI Gestor de Frota</text></g><!--MD5=[65869becbd3db214babd1d61d8805c31]
+entity IADM--><g id="elem_IADM"><ellipse cx="639.5" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="581.5" y="45.9659">UI Administrador</text></g><!--MD5=[34fba3c7b240a880f4784ec60f0b91b0]
+entity IGOO--><g id="elem_IGOO"><ellipse cx="865.5" cy="450" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="790" y="481.9659">Google Maps REST API</text></g><!--MD5=[6b9da9eb08d436f8060312fd7c9b391a]
+link A to AI--><g id="link_A_AI"><path d="M355.71,354 C367.23,354 378.74,354 390.26,354 " fill="none" id="A-AI" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[899e61aea7b0f7667b77ccf1a69f8e11]
+link WI to W--><g id="link_WI_W"><path d="M470.06,363.07 C468.7,387.71 464.53,463.24 461.86,511.74 " fill="none" id="WI-W" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5d3f3a3b24761e2f837bde1ed43cbae0]
+link LI to L--><g id="link_LI_L"><path d="M468.57,214 C480.18,214 491.8,214 503.41,214 " fill="none" id="LI-L" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e47d1c555c833c67ac4636d3bd0e1c46]
+link PI to P--><g id="link_PI_P"><path d="M596.35,363.07 C599.12,389.38 608,473.76 613,521.24 " fill="none" id="PI-P" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a1a618ab0e502c057ce285f327e0d1dd]
+link p1 to U--><g id="link_p1_U"><path d="M250.68,119.05 C259.88,130.16 282.56,157.53 301.07,179.88 " fill="none" id="p1-U" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e532b163431d13aeea5a749570e91b04]
+link p2 to U--><g id="link_p2_U"><path d="M328.5,119.05 C328.5,130.16 328.5,157.53 328.5,179.88 " fill="none" id="p2-U" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3a3bc416b852305d9b00a0db178713c2]
+link p3 to U--><g id="link_p3_U"><path d="M441.44,119.05 C428.08,130.16 395.18,157.53 368.31,179.88 " fill="none" id="p3-U" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f4ba268d5624bc4f83047b72e3bd9cbb]
+link p4 to U--><g id="link_p4_U"><path d="M578.45,116.31 C558.04,124.11 489.8,150.19 433.5,172 C426.84,174.58 419.94,177.26 413.01,179.95 " fill="none" id="p4-U" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e20c4103293956077424ae47bb463f2b]
+link U to WI--><g id="link_U_WI"><path d="M362.51,248.05 C393.56,278.23 437.71,321.13 458.63,341.46 " fill="none" id="U-to-WI" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="462.26,344.99,458.5948,335.8485,458.6748,341.5048,453.0185,341.5848,462.26,344.99" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f46c215da9e218bb077660749171d698]
+link U to AI--><g id="link_U_AI"><path d="M345.51,248.05 C360.77,277.73 382.37,319.71 393.03,340.43 " fill="none" id="U-to-AI" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="395.38,344.99,394.8324,335.1564,393.0984,340.5409,387.7139,338.8069,395.38,344.99" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b02b091d8251c332c8771bb2c64a5c57]
+link U to LI--><g id="link_U_LI"><path d="M415.75,214 C425.55,214 435.35,214 445.15,214 " fill="none" id="U-to-LI" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="450.27,214,441.27,210,445.27,214,441.27,218,450.27,214" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4720b01f2049db5e885134c95aad1f7a]
+link L to PI--><g id="link_L_PI"><path d="M561.28,248.26 C562.19,261.42 563.99,276.59 567.5,290 C572.26,308.2 581.72,327.79 588.33,340.21 " fill="none" id="L-to-PI" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="590.79,344.76,590.0412,334.9396,588.4178,340.3586,582.9989,338.7352,590.79,344.76" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[13edbb1cc3f0ecad736982263cf7d4cd]
+link L to WI--><g id="link_L_WI"><path d="M538.94,248.05 C519.51,277.86 491.98,320.07 478.53,340.69 " fill="none" id="L-to-WI" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="475.73,344.99,484.0085,339.6546,478.4705,340.8079,477.3172,335.2699,475.73,344.99" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[928bf41d24fdd7f4d9af49952904c22a]
+link L to p5--><g id="link_L_p5"><path d="M617.86,241.34 C623.77,243.72 629.72,245.99 635.5,248 C685.39,265.36 701.05,259.42 750.5,278 C751.81,278.49 753.17,279.1 754.46,279.73 " fill="none" id="L-p5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d6448eee4e7420b4847fd6150d3d0a22]
+link IGA to p1--><g id="link_IGA_p1"><path d="M92.73,20.49 C122.5,38.21 215.47,93.53 240.33,108.33 " fill="none" id="IGA-p1" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[477674194cf0457ad6049cb779c5bb47]
+link IGL to p2--><g id="link_IGL_p2"><path d="M288.25,23.27 C297.06,42.7 318.88,90.8 326.12,106.76 " fill="none" id="IGL-p2" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e306a0934e7acc463c593688175e7d01]
+link IGF to p3--><g id="link_IGF_p3"><path d="M467.62,23.27 C463.22,42.7 452.31,90.8 448.69,106.76 " fill="none" id="IGF-p3" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3c1e2d335c4bfa45786d9d180c0043f0]
+link IADM to p4--><g id="link_IADM_p4"><path d="M634.81,23.27 C623.8,42.7 596.52,90.8 587.47,106.76 " fill="none" id="IADM-p4" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e4704f2f7755af0a2df520419d1ad2f6]
+link p5 to IGOO--><g id="link_p5_IGOO"><path d="M763.76,290.09 C778.08,312.45 835.67,402.41 857.27,436.14 " fill="none" id="p5-to-IGOO" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="860.18,440.69,858.6929,430.9541,857.4827,436.4799,851.9568,435.2697,860.18,440.69" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="3" x="825.5" y="359.397"> </text></g><!--MD5=[02853a31d25e5b2e6fd1a9bcece344ac]
+@startuml
+
+interface "UI Gestor de Armazéns" as IGA
+interface "UI Gestor de Logística" as IGL
+interface "UI Gestor de Frota" as IGF
+interface "UI Administrador" as IADM
+interface "Google Maps REST API" as IGOO
+
+component [ElectricGo] <<system>> as C {
+	component [User Interface - SPA] <<container>> as U
+	component [Authz] <<container>> as A
+	component [Warehouse\nManagement] <<container>> as W
+	component [Logistics] <<container>> as L
+	component [Planning] <<container>> as P
+
+	portin " " as p1
+	portin " " as p2
+	portin " " as p3
+	portin " " as p4
+	portout " " as p5
+
+	interface " " as AI
+	interface " " as WI
+	interface " " as LI
+	interface " " as PI
+
+	A -right- AI
+	W -up- WI
+	L -left- LI
+	P -up- PI
+
+	p1 - - U
+	p2 - - U
+	p3 - - U
+	p4 - - U
+
+	U - -> WI
+	U - -> AI
+	U -right-> LI
+	L - -> PI
+	L - -> WI
+
+	L - - p5
+}
+
+IGA - - p1
+IGL - - p2
+IGF - - p3
+IADM - - p4
+p5 ..> IGOO : " "
+
+@enduml
+
+PlantUML version 1.2022.6(Tue Jun 21 18:34:49 WEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

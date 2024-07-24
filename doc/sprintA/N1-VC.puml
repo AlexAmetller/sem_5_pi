@@ -1,0 +1,69 @@
+@startuml
+ left to right direction
+
+"Administrador" as ADM
+"Gestor de Armazéns" as WM
+"Gestor de Logística" as LM
+"Gestor de Frota" as FM
+
+package Utilizadores {
+  usecase "Autenticar via SSO" as AUTH
+  usecase "Criar Conta de Utilizador" as CCU
+  usecase "Cancelar Conta de Utilizador" as CXU
+}
+
+package Armazém {
+  usecase "Criar Armazém" as CA
+  usecase "Listar Armazéns" as LA
+  usecase "Editar Armazém" as EA
+}
+
+package Entrega {
+  usecase "Listar Entregas" as LE
+  usecase "Criar Entrega" as CE
+  usecase "Editar Entrega" as EE
+}
+
+package Camiões {
+  usecase "Listar Camiões" as LC
+  usecase "Criar Camião" as CC
+  usecase "Editar Camião" as EC
+}
+
+package Percurso {
+  usecase "Listar Percursos" as LP
+  usecase "Criar Percurso" as CP
+  usecase "Editar Percurso" as EP
+}
+
+usecase "Obter Planeamento de um Camião e um Dia" as OP
+usecase "Visualizar graficamente os Armazéns" as VA
+usecase "Visualizar graficamente a Rede Viária" as VR
+
+
+ADM --> AUTH
+ADM --> CCU
+ADM --> CXU
+
+WM -up-> AUTH
+WM --> CA
+WM --> LA
+WM --> EA
+WM --> LE
+WM --> CE
+WM --> EE
+
+FM -up-> AUTH
+FM --> LC
+FM --> CC
+FM --> EC
+
+LM -up-> AUTH
+LM --> LP
+LM --> CP
+LM --> EP
+LM -left-> OP
+LM -right-> VR
+LM -up-> VA
+
+@enduml

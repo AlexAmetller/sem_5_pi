@@ -1,0 +1,22 @@
+@startuml
+actor "Gestor de Frota" as A
+participant "<i><<Container>></i>\nUser Interface - SPA" as S
+participant "<i><<Container>></i>\nLogistics" as W
+
+A -> S: Inicia a edicão de um Entrega
+S --> W: GET /entrega - listar Entrega
+W --> S: 200 OK - retorna lista de Entregas
+S --> A: Fornece a lista de Entregas
+
+A -> S: Seleciona o Entrega desejado
+S --> A: Solicita os dados do Entrega\n<i>(ID do Armazém de Partida, ID do Armazém de Partida, Distância,</i>\n<i>Energia/Consumo, Tempo de Viagem, Tempo de carregamento extra)</i>
+
+A -> S: Fornece os dados do Entrega
+
+S -> W: POST /entrega - criar Entrega
+W -> W: Valida os dados do Entrega
+W -> W: Regista o Entrega
+W --> S: 200 OK
+S --> A: Confirma que o Entrega foi criado com sucesso
+
+@enduml

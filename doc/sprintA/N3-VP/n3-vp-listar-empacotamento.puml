@@ -1,0 +1,42 @@
+@startuml
+participant "User Interface" as UI
+participant "Router" as Router
+participant "PackagingController" as Controller
+participant "PackagingService" as Service
+
+participant "PackagingRepository" as Repository
+participant "PackagingMapper" as Mapper
+participant "List<PackagingListDTO>" as PackagingListDTO
+participant "List<PackagingModel>" as Model
+
+participant "Persistence" as Persistence
+participant "Schema" as Schema
+
+UI -> Router: GET /packaging
+Router -> Controller: dto =\nfindAll()
+
+Controller -> Service: dto =\nfindAll()
+
+Service -> Repository: packagings =\nfindAll()
+
+Repository -> Persistence: schemas = query()
+
+create Schema
+Persistence -> Schema: schemas <<new>>
+
+Repository -> Mapper: packagings = toModel(schemas)
+
+create Model
+Mapper -> Model: packagings: <<new>>
+
+Service -> Mapper: dto = PackagingListDTO(packagings)
+create PackagingListDTO
+Mapper -> PackagingListDTO: dto <<new>>
+
+Service --> Controller: dto
+
+Controller --> Router: dto
+
+Router --> UI: HTTP 200 OK\njson(packagings)
+
+@enduml

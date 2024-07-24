@@ -1,0 +1,52 @@
+@startuml
+
+interface "UI Gestor de Armazéns" as IGA
+interface "UI Gestor de Logística" as IGL
+interface "UI Gestor de Frota" as IGF
+interface "UI Administrador" as IADM
+interface "Google Maps REST API" as IGOO
+
+component [ElectricGo] <<system>> as C {
+	component [User Interface - SPA] <<container>> as U
+	component [Authz] <<container>> as A
+	component [Warehouse\nManagement] <<container>> as W
+	component [Logistics] <<container>> as L
+	component [Planning] <<container>> as P
+
+	portin " " as p1
+	portin " " as p2
+	portin " " as p3
+	portin " " as p4
+	portout " " as p5
+
+	interface " " as AI
+	interface " " as WI
+	interface " " as LI
+	interface " " as PI
+
+	A -right- AI
+	W -up- WI
+	L -left- LI
+	P -up- PI
+
+	p1 -- U
+	p2 -- U
+	p3 -- U
+	p4 -- U
+
+	U --> WI
+	U --> AI
+	U -right-> LI
+	L --> PI
+	L --> WI
+
+	L -- p5
+}
+
+IGA -- p1
+IGL -- p2
+IGF -- p3
+IADM -- p4
+p5 ..> IGOO : " "
+
+@enduml

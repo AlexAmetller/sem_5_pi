@@ -1,0 +1,22 @@
+@startuml
+actor "Gestor de Armazéns" as A
+participant "<i><<Container>></i>\nUser Interface - SPA" as S
+participant "<i><<Container>></i>\nWarehouse Management" as W
+
+alt Listar todos os Empacotamentos
+
+	A -> S: Realiza o pedido de listagem de Empacotamentos
+	S --> W: GET /Empacotamento - listar Empacotamentos
+	W --> S: 200 OK - retorna lista de Empacotamentos
+	S --> A: Apresenta uma lista com todos as Empacotamentos
+
+else Listar um Empacotamento por Identificador
+
+	A -> S: Requer uma Empacotamentos pelo Identificador
+	S --> W: GET /Empacotamento/{id} - retornar Empacotamento
+	W --> S: 200 OK - retorna lista de Empacotamentos
+	S --> A: Apresenta todos os dados da Empacotamento solicitada
+
+end
+
+@enduml

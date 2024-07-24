@@ -1,0 +1,22 @@
+@startuml
+actor "Gestor de Armazéns" as A
+participant "<i><<Container>></i>\nUser Interface - SPA" as S
+participant "<i><<Container>></i>\nWarehouse Management" as W
+
+alt Listar todos os Entregas
+
+	A -> S: Realiza o pedido de listagem de Entregas
+	S --> W: GET /entrega - listar Entregas
+	W --> S: 200 OK - retorna lista de Entregas
+	S --> A: Apresenta uma lista com todos as Entregas
+
+else Listar um Entrega por Identificador
+
+	A -> S: Requer uma Entregas pelo Identificador
+	S --> W: GET /entrega/{id} - retornar Entrega
+	W --> S: 200 OK - retorna lista de Entregas
+	S --> A: Apresenta todos os dados da Entrega solicitada
+
+end
+
+@enduml

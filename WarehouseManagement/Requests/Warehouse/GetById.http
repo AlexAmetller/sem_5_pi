@@ -1,0 +1,8 @@
+@host = http://localhost:5105
+
+GET {{host}}/warehouse/id
+Content-Type: application/json
+
+{
+    "Id": "6132e821-bea4-4aeb-8300-e15e25a7ad2a"
+}

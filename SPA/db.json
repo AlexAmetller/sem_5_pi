@@ -1,0 +1,75 @@
+{
+  "warehouse": [
+    {
+      "id": "76786569-3dc2-4f97-91bd-64a3129b2153",
+      "code": "ABC",
+      "description": "Cool warehouse",
+      "address": {
+        "street": "Foobar street",
+        "postalCode": "4000-100",
+        "city": "Porto",
+        "country": "Portugal"
+      },
+      "coordinates": {
+        "latitude": 5,
+        "longitude": 6
+      }
+    },
+    {
+      "id": "76786569-3dc2-4f97-91bd-64a3129b2154",
+      "code": "DEF",
+      "description": "Other warehouse",
+      "address": {
+        "street": "Qux street",
+        "postalCode": "4000-101",
+        "city": "Guimarães",
+        "country": "Portugal"
+      },
+      "coordinates": {
+        "latitude": 9,
+        "longitude": 9
+      }
+    },
+    {
+      "id": "76786569-3dc2-4f97-91bd-64a3129b2155",
+      "code": "JKL",
+      "description": "Cool warehouse",
+      "address": {
+        "street": "Foobar street",
+        "postalCode": "4000-100",
+        "city": "Porto",
+        "country": "Portugal"
+      },
+      "coordinates": {
+        "latitude": 5,
+        "longitude": 6
+      }
+    }
+  ],
+  "truck": [
+    {
+      "id": "001",
+      "tare": 1,
+      "maxWeight": 1,
+      "maxCharge": 1,
+      "range": 1,
+      "chargingTime": 1
+    },
+    {
+      "id": "002",
+      "tare": 2,
+      "maxWeight": 2,
+      "maxCharge": 2,
+      "range": 2,
+      "chargingTime": 2
+    },
+    {
+      "id": "003",
+      "tare": 3,
+      "maxWeight": 3,
+      "maxCharge": 3,
+      "range": 3,
+      "chargingTime": 3
+    }
+  ]
+}

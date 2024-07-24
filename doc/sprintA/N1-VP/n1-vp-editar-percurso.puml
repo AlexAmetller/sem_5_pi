@@ -1,0 +1,16 @@
+@startuml
+actor "Gestor de Logística" as A
+participant "<i><<System>></i>ElectricGo" as S
+
+A -> S: Inicia a edicão de um Percurso
+S --> A: Fornece a lista de Percursos
+
+A -> S: Seleciona o Percurso desejado
+S --> A: Solicita os dados do Percurso\n<i>(Id do Armazém de Partida, Id do Armazém de Chegada,</i>\n<i>Distância, Tempo para percorrer, Energia para percorrer)</i>
+
+A -> S: Fornece os dados do Percurso
+S -> S: Verifica/valida os dados do Percurso
+S -> S: Regista o Percurso
+S --> A: Confirma que o Percurso foi editado com sucesso
+
+@enduml

@@ -1,0 +1,57 @@
+
+@startuml
+participant "User Interface" as UI
+participant "Router" as Router
+participant "PathController" as Controller
+participant "PathService" as Service
+
+participant "PathRepository" as Repository
+participant "PathMapper" as Mapper
+participant "PathCreateResponseDTO" as CreateResponseDTO
+participant "PathSchema" as Schema
+participant "PathModel" as Model
+participant "PathCreateRequestDTO" as CreateRequestDTO
+participant "Persistence" as Persistence
+
+
+UI -> Router: POST /path (json)
+Router -> Controller: responseDTO =\ncreatePath(json)
+Controller -> Controller: validate(json)
+Controller -> Mapper: requestDTO = createCreateDTO()
+
+create CreateRequestDTO
+Mapper -> CreateRequestDTO: requestDTO: <<new>>
+
+Controller -> Service: responseDTO =\ncreate(requestDTO)
+
+Service -> Service: validate(requestDTO)
+Service -> Mapper: path = toModel(requestDTO)
+
+create Model
+Mapper -> Model: path: <<new>>
+
+Service -> Repository: entity =\nsave(path)
+
+Repository -> Mapper: schema = toSchema(entity)
+
+create Schema
+Mapper -> Schema: schema: <<new>>
+
+Repository -> Persistence: persist(schema)
+
+Repository -> Mapper: entity = toModel(schema)
+Mapper -> Model: entity: <<new>>
+Repository --> Service: entity
+
+
+Service -> Mapper: responseDTO = createResponseDTO(entity)
+create CreateResponseDTO
+Mapper -> CreateResponseDTO: responseDTO <<new>>
+
+Service --> Controller: responseDTO
+
+Controller --> Router: responseDTO
+
+Router --> UI: HTTP 200 OK\njson(responseDTO)
+
+@enduml

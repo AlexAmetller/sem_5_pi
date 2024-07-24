@@ -1,0 +1,19 @@
+@startuml
+
+package "ElectricGo" {
+
+	folder "User Interface - SPA" as U
+	folder "Authz" as A
+	folder "Warehouse\nManagement" as W
+	folder "Logistics" as L
+	folder "Planning" as P
+
+	U ..> A
+	U ..> W
+	U ..> L
+	L ..> P
+	L ..> W
+
+}
+
+@enduml

@@ -1,0 +1,61 @@
+@startuml
+participant "User Interface" as UI
+participant "Router" as Router
+participant "TruckController" as Controller
+participant "TruckService" as Service
+
+participant "TruckRepository" as Repository
+participant "TruckMapper" as Mapper
+participant "TruckUpdateResponseDTO" as UpdateResponseDTO
+participant "TruckSchema" as Schema
+participant "TruckModel" as Model
+participant "TruckUpdateRequestDTO" as UpdateRequestDTO
+participant "Persistence" as Persistence
+
+
+UI -> Router: POST /truck (json)
+Router -> Controller: responseDTO =\ncreateTruck(json)
+Controller -> Controller: validate(json)
+Controller -> Mapper: requestDTO = createUpdateDTO()
+
+create UpdateRequestDTO
+Mapper -> UpdateRequestDTO: requestDTO: <<new>>
+
+Controller -> Service: responseDTO =\nupdate(requestDTO)
+
+Service -> Service: validate(requestDTO)
+
+Service -> Mapper: truck = toModel(requestDTO)
+
+create Model
+Mapper -> Model: truck: <<new>>
+
+Service -> Repository: entity =\nupdate(truck)
+
+Repository -> Mapper: schema = toSchema(entity)
+
+create Schema
+Mapper -> Schema: schema: <<new>>
+
+Repository -> Persistence: entity = findOne(schema)
+
+Repository -> Repository: verifyEntityExists(entity)
+
+Repository -> Persistence: persist(schema)
+
+Repository -> Mapper: entity = toModel(schema)
+Mapper -> Model: entity: <<new>>
+Repository --> Service: entity
+
+
+Service -> Mapper: responseDTO = updateResponseDTO(entity)
+create UpdateResponseDTO
+Mapper -> UpdateResponseDTO: responseDTO <<new>>
+
+Service --> Controller: responseDTO
+
+Controller --> Router: responseDTO
+
+Router --> UI: HTTP 201 OK\njson(responseDTO)
+
+@enduml

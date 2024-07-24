@@ -1,0 +1,26 @@
+@startuml
+left to right direction
+
+interface "UI Gestor de Armazéns" as IGA
+interface "UI Gestor de Logística" as IGL
+interface "UI Gestor de Frota" as IGF
+interface "UI Administrador" as IADM
+interface "Google Maps REST API" as IGOO
+
+component [ElectricGo] <<system>> as c1
+
+note right of c1
+Sistema de planeamento de 
+distribuiçãode entregas entre 
+armazéns utilizando uma frota 
+de veículos elétricos
+end note
+
+IGA -- c1
+IGL -- c1
+IGF -- c1
+IADM -- c1
+
+c1 .right.> IGOO : " "
+
+@enduml

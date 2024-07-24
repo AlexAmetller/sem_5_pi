@@ -1,0 +1,42 @@
+@startuml
+participant "User Interface" as UI
+participant "Router" as Router
+participant "DeliveryController" as Controller
+participant "DeliveryService" as Service
+
+participant "DeliveryRepository" as Repository
+participant "DeliveryMapper" as Mapper
+participant "List<DeliveryListDTO>" as DeliveryListDTO
+participant "List<DeliveryModel>" as Model
+
+participant "Persistence" as Persistence
+participant "Schema" as Schema
+
+UI -> Router: GET /delivery
+Router -> Controller: dto =\nfindAll()
+
+Controller -> Service: dto =\nfindAll()
+
+Service -> Repository: deliveries =\nfindAll()
+
+Repository -> Persistence: schemas = query()
+
+create Schema
+Persistence -> Schema: schemas <<new>>
+
+Repository -> Mapper: deliveries = toModel(schemas)
+
+create Model
+Mapper -> Model: deliveries: <<new>>
+
+Service -> Mapper: dto = DeliveryListDTO(deliveries)
+create DeliveryListDTO
+Mapper -> DeliveryListDTO: dto <<new>>
+
+Service --> Controller: dto
+
+Controller --> Router: dto
+
+Router --> UI: HTTP 200 OK\njson(deliveries)
+
+@enduml

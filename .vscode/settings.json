@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/b3de99cb-e632-471a-a9a8-66dc02c6b72c/appservices/subscriptions/b3de99cb-e632-471a-a9a8-66dc02c6b72c/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/sempig80",
+    "appService.deploySubpath": "."
+}

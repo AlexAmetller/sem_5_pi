@@ -1,0 +1,6 @@
+@host = http://localhost:5105
+
+GET {{host}}/warehouse
+Content-Type: application/json
+
+{}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="358px" preserveAspectRatio="none" style="width:575px;height:358px;background:#FFFFFF;" version="1.1" viewBox="0 0 575 358" width="575px" zoomAndPan="magnify"><defs/><g><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="87" x2="87" y1="84.0679" y2="274.5799"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="490.5" x2="490.5" y1="84.0679" y2="274.5799"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="20" y="79.9659">Gestor de Logística</text><ellipse cx="87" cy="13.5" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M87,21.5 L87,48.5 M74,29.5 L100,29.5 M87,48.5 L74,63.5 M87,48.5 L100,63.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="20" y="288.5458">Gestor de Logística</text><ellipse cx="87" cy="301.1478" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M87,309.1478 L87,336.1478 M74,317.1478 L100,317.1478 M87,336.1478 L74,351.1478 M87,336.1478 L100,351.1478 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#E2E2F0" height="33.0679" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="157" x="412.5" y="50"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="76" x="419.5" y="71.9659">&lt;&lt;System&gt;&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="495.5" y="71.9659">ElectricGo</text><rect fill="#E2E2F0" height="33.0679" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="157" x="412.5" y="273.5799"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="76" x="419.5" y="295.5458">&lt;&lt;System&gt;&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="495.5" y="295.5458">ElectricGo</text><polygon fill="#181818" points="479,140.4799,489,144.4799,479,148.4799,483,144.4799" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="87" x2="485" y1="144.4799" y2="144.4799"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="94" y="138.6709">Realiza o pedido de listagem de Percursos</text><polygon fill="#181818" points="98,172.186,88,176.186,98,180.186,94,176.186" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="92" x2="490" y1="176.186" y2="176.186"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="264" x="104" y="170.377">Apresenta uma lista com todos os Percursos</text><polygon fill="#181818" points="479,220.8739,489,224.8739,479,228.8739,483,224.8739" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="87" x2="485" y1="224.8739" y2="224.8739"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="380" x="94" y="219.0649">Realiza o pedido de listagem de um Percursos pelo Identificador</text><polygon fill="#181818" points="98,252.5799,88,256.5799,98,260.5799,94,256.5799" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="92" x2="490" y1="256.5799" y2="256.5799"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="291" x="104" y="250.7709">Apresenta todos os dados do Percurso solicitado</text><!--MD5=[851d0a8ffce070690fd656983aa8958f]
+@startuml
+actor "Gestor de Logística" as A
+participant "<i><<System>></i>ElectricGo" as S
+
+alt Listar todos os Percursos
+
+	A -> S: Realiza o pedido de listagem de Percursos
+	S - -> A: Apresenta uma lista com todos os Percursos
+
+else Listar um Percurso por Identificador
+
+	A -> S: Realiza o pedido de listagem de um Percursos pelo Identificador
+	S - -> A: Apresenta todos os dados do Percurso solicitado
+
+@enduml
+
+PlantUML version 1.2022.6(Tue Jun 21 18:34:49 WEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,80 @@
+@startuml
+
+interface "Warehouse API" as WI
+
+component "Warehouse\nManagement\n\n\n\n\n\n\n" <<container>> as W {
+	portin " " as piW
+	portout " " as poW
+
+	frame "Framework and Drivers" {
+		component "Routing" <<component>> as Routing
+		component "Persistence" <<component>> as Persistence
+                Routing -[hidden]right- Persistence
+	}
+
+	component "Schema\nData Model" <<component>> as Schema
+	interface "Controller API" as IController
+	interface "Data Model API" as ISchema
+	interface "Persistence API" as IPersistence
+	IController -[hidden]right- ISchema: "               "
+
+	'Layer 2
+	frame "Interface Adapters" {
+		component "Controller" <<component>> as Controller
+		component "Repository" <<component>> as Repository
+	}
+
+	component "DTO" <<component>> as DTO
+	interface "DTO API\t" as IDTO
+	interface "Service API" as IService
+	interface "Repository API" as IRepository
+	IService -[hidden]left- IDTO: "      "
+
+	frame "Application" {
+		component "Service" <<component>> as Service
+	}
+
+	interface "Model API" as IModel
+
+	frame "Domain" {
+		component "Domain Model" <<component>> as Model
+	}
+}
+
+
+
+
+WI -down- piW
+piW -down-> Routing
+
+Schema -left- ISchema
+DTO -right- IDTO
+
+Persistence -down- ISchema
+Persistence -down- IPersistence
+Repository -up-> ISchema
+
+Service -up- IService
+Repository -down- IRepository
+Controller -up- IController
+Model -up- IModel
+
+
+
+Routing -down-> IController
+Repository -up-> IPersistence
+Controller -down-> IService
+Controller -down-> IDTO
+Service -up-> IDTO
+Service -up-> IRepository
+Service -down-> IModel
+Repository -down-> IModel
+
+database "Warehouse\nDatabase" as DB
+interface " " as IDB
+
+Persistence -right-> poW
+poW -right-> IDB
+IDB -right- DB
+
+@enduml

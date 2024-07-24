@@ -1,0 +1,14 @@
+@startuml
+actor "Gestor de Armazéns" as A
+participant "<i><<System>></i>ElectricGo" as S
+
+A -> S: Inicia o pedido de criacao de uma Entrega
+S --> A: Solicita os dados da Entrega\n<i>(Identificador, Data, Armazém de Partida,</i>\n<i>Armazém de Entrega, Massa/peso,</i>\n<i>Tempo de Carregamento, Tempo de Retirada)</i>
+
+A -> S: Fornece os dados da Entrega
+S -> S: Verifica/valida os dados da Entrega
+S -> S: Valida a existência das Entregas
+S -> S: Regista a Entrega
+S --> A: Confirma que a Entrega foi criado com sucesso
+
+@enduml

@@ -1,0 +1,22 @@
+@startuml
+actor "Gestor de Frota" as A
+participant "<i><<Container>></i>\nUser Interface - SPA" as S
+participant "<i><<Container>></i>\nWarehouse Management" as W
+
+A -> S: Inicia a edicão de um Empacotamento
+S --> W: GET /camiao - listar Empacotamento
+W --> S: 200 OK - retorna lista de Empacotamentos
+S --> A: Fornece a lista de Empacotamentos
+
+A -> S: Seleciona o Empacotamento desejado
+S --> A: Solicita os dados do Empacotamento\n<i>(Posição X, Posição Y, Posição Z,</i>\n<i>Tempo de colocação, Tempo de retirada, ID da entrega)</i>
+
+A -> S: Fornece os dados do Empacotamento
+
+S -> W: POST /empacotamento - criar Empacotamento
+W -> W: Valida os dados do Empacotamento
+W -> W: Regista o Empacotamento
+W --> S: 200 OK
+S --> A: Confirma que o Empacotamento foi editado com sucesso
+
+@enduml

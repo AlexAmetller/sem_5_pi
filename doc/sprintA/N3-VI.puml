@@ -1,0 +1,30 @@
+@startuml
+
+package "Warehouse Management" {
+	package "Infrastructure" {
+		folder "Routes" as RO
+		folder "Persistence" as PE
+		RO -[hidden]right- PE
+	}
+	package "Interface Adapters" {
+		folder "Controller" as CO
+		folder "Repositories" as RP
+		CO -[hidden]right- RP
+	}
+	package "Application" {
+		folder "Services" as SE
+	}
+	package "Domain" {
+		folder "Entities" as EN
+		folder "Value Objects" as VO
+	}
+
+	RO .down.> CO
+	CO .down.> SE
+	RP .up.> PE
+	SE .up.> RP
+	SE .down.> EN
+	SE .down.> VO
+}
+
+@enduml

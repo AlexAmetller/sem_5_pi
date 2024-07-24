@@ -1,0 +1,42 @@
+export default [
+  {
+    code: '4439',
+    date: '2022-11-27T14:45:49.076Z',
+    mass: 200,
+    destinationWarehouseCode: 'W01',
+    loadingTime: 8,
+    withdrawingTime: 10,
+  },
+  {
+    code: '4438',
+    date: '2022-11-27T14:45:49.076Z',
+    mass: 150,
+    destinationWarehouseCode: 'W09',
+    loadingTime: 7,
+    withdrawingTime: 9,
+  },
+  {
+    code: '4445',
+    date: '2022-11-27T14:45:49.076Z',
+    mass: 100,
+    destinationWarehouseCode: 'W03',
+    loadingTime: 5,
+    withdrawingTime: 7,
+  },
+  {
+    code: '4443',
+    date: '2022-11-27T14:45:49.076Z',
+    mass: 120,
+    destinationWarehouseCode: 'W08',
+    loadingTime: 6,
+    withdrawingTime: 8,
+  },
+  {
+    code: '4449',
+    date: '2022-11-27T14:45:49.076Z',
+    mass: 300,
+    destinationWarehouseCode: 'W11',
+    loadingTime: 15,
+    withdrawingTime: 20,
+  },
+]

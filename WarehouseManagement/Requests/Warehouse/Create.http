@@ -1,0 +1,29 @@
+@host = http://localhost:5105
+
+POST {{host}}/warehouse
+Content-Type: application/json
+
+{
+    "Code": "001",
+    "Address": "Rua xpto"
+}
+
+###
+
+POST {{host}}/warehouse
+Content-Type: application/json
+
+{
+    "Code": "002",
+    "Address": "Rua xpto2"
+}
+
+###
+
+POST {{host}}/warehouse
+Content-Type: application/json
+
+{
+    "Code": "003",
+    "Address": "Rua xpto3"
+}

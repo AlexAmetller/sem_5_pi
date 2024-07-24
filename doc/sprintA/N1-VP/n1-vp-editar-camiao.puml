@@ -1,0 +1,16 @@
+@startuml
+actor "Gestor de Frota" as A
+participant "<i><<System>></i>ElectricGo" as S
+
+A -> S: Inicia a edicão de um Camião
+S --> A: Fornece a lista de Camiões
+
+A -> S: Seleciona o Camião desejado
+S --> A: Solicita os dados do Camião\n<i>(Tara, Capacidade de Carga, Carga Máxima,</i>\n<i>Autonomia, Tempo de Carregamento da Bateria)</i>
+
+A -> S: Fornece os dados do Camião
+S -> S: Verifica/valida os dados do Camião
+S -> S: Regista o Camião
+S --> A: Confirma que o Camião foi editado com sucesso
+
+@enduml

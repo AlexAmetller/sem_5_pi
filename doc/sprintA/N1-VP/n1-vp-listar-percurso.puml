@@ -1,0 +1,15 @@
+@startuml
+actor "Gestor de Logística" as A
+participant "<i><<System>></i>ElectricGo" as S
+
+alt Listar todos os Percursos
+
+	A -> S: Realiza o pedido de listagem de Percursos
+	S --> A: Apresenta uma lista com todos os Percursos
+
+else Listar um Percurso por Identificador
+
+	A -> S: Realiza o pedido de listagem de um Percursos pelo Identificador
+	S --> A: Apresenta todos os dados do Percurso solicitado
+
+@enduml

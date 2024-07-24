@@ -1,0 +1,13 @@
+@startuml
+actor "Gestor de Armazéns" as A
+participant "<i><<System>></i>ElectricGo" as S
+
+A -> S: Inicia o pedido de criacao de um Armazém
+S --> A: Solicita os dados do Armazém\n(Identificador, Designacao, Endereco, Coordenadas)
+
+A -> S: Fornece os dados do Armazém
+S -> S: Verifica/valida os dados do Armazém
+S -> S: Regista o Armazém
+S --> A: Confirma que o Armazém foi criado com sucesso
+
+@enduml

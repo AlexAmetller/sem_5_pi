@@ -1,0 +1,15 @@
+@startuml
+actor "Gestor de Frota" as A
+participant "<i><<System>></i>ElectricGo" as S
+
+alt Listar todos os Empacotamentos
+
+	A -> S: Realiza o pedido de listagem de Empacotamentos
+	S --> A: Apresenta uma lista com todos os Empacotamentos
+
+else Listar um Empacotamento por Id
+
+	A -> S: Realiza o pedido de listagem de um Empacotamento pelo Id
+	S --> A: Apresenta todos os dados do Empacotamento solicitado
+
+@enduml

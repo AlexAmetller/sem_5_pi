@@ -1,0 +1,22 @@
+@startuml
+actor "Gestor de Frota" as A
+participant "<i><<Container>></i>\nUser Interface - SPA" as S
+participant "<i><<Container>></i>\nWarehouse Management" as W
+
+A -> S: Inicia a edicão de um Camião
+S --> W: GET /camiao - listar Camião
+W --> S: 200 OK - retorna lista de Camiões
+S --> A: Fornece a lista de Camiões
+
+A -> S: Seleciona o Camião desejado
+S --> A: Solicita os dados do Camião\n<i>(Tara, Capacidade de Carga, Carga Máxima,</i>\n<i>Autonomia, Tempo de Carregamento da Bateria)</i>
+
+A -> S: Fornece os dados do Camião
+
+S -> W: POST /armazem - criar Camião
+W -> W: Valida os dados do Camião
+W -> W: Regista o Camião
+W --> S: 200 OK
+S --> A: Confirma que o Camião foi criado com sucesso
+
+@enduml

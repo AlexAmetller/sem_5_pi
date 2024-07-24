@@ -1,0 +1,1978 @@
+{
+  "origem": 5,
+  "camiao": {
+    "nome": "eTruck01",
+    "tara": 7500,
+    "capacidade_carga": 4300,
+    "carga_total_baterias": 80,
+    "autonomia": 100,
+    "tempo_recarga": 60
+  },
+  "armazens": [
+    { "nome": "Arouca", "id": 1 },
+    { "nome": "Espinho", "id": 2 },
+    { "nome": "Gondomar", "id": 3 },
+    { "nome": "Maia", "id": 4 },
+    { "nome": "Matosinhos", "id": 5 },
+    { "nome": "Oliveira de Azemeis", "id": 6 },
+    { "nome": "Paredes", "id": 7 },
+    { "nome": "Porto", "id": 8 },
+    { "nome": "Povoa de Varzim", "id": 9 },
+    { "nome": "Santa Maria da Feira", "id": 10 },
+    { "nome": "Santo Tirso", "id": 11 },
+    { "nome": "Sao Joao da Madeira", "id": 12 },
+    { "nome": "Trofa", "id": 13 },
+    { "nome": "Vale de Cambra", "id": 14 },
+    { "nome": "Valongo", "id": 15 },
+    { "nome": "Vila do Conde", "id": 16 },
+    { "nome": "Vila Nova de Gaia", "id": 17 }
+  ],
+  "entregas": [
+    {
+      "id": 4439,
+      "data": "20221205",
+      "massa": 200,
+      "armazem": 1,
+      "tempo_colocacao": 8,
+      "tempo_retirada": 10
+    },
+    {
+      "id": 4438,
+      "data": "20221205",
+      "massa": 150,
+      "armazem": 9,
+      "tempo_colocacao": 7,
+      "tempo_retirada": 9
+    },
+    {
+      "id": 4445,
+      "data": "20221205",
+      "massa": 100,
+      "armazem": 3,
+      "tempo_colocacao": 5,
+      "tempo_retirada": 7
+    },
+    {
+      "id": 4443,
+      "data": "20221205",
+      "massa": 120,
+      "armazem": 8,
+      "tempo_colocacao": 6,
+      "tempo_retirada": 8
+    },
+    {
+      "id": 4449,
+      "data": "20221205",
+      "massa": 300,
+      "armazem": 11,
+      "tempo_colocacao": 15,
+      "tempo_retirada": 20
+    }
+  ],
+  "caminhos": [
+    {
+      "camiao": "eTruck01",
+      "origem": 1,
+      "destino": 2,
+      "tempo": 122,
+      "energia": 42
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 1,
+      "destino": 3,
+      "tempo": 122,
+      "energia": 46
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 1,
+      "destino": 4,
+      "tempo": 151,
+      "energia": 54
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 1,
+      "destino": 5,
+      "tempo": 147,
+      "energia": 52
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 1,
+      "destino": 6,
+      "tempo": 74,
+      "energia": 24
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 1,
+      "destino": 7,
+      "tempo": 116,
+      "energia": 35
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 1,
+      "destino": 8,
+      "tempo": 141,
+      "energia": 46
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 1,
+      "destino": 9,
+      "tempo": 185,
+      "energia": 74
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 1,
+      "destino": 10,
+      "tempo": 97,
+      "energia": 30
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 1,
+      "destino": 11,
+      "tempo": 164,
+      "energia": 64
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 1,
+      "destino": 12,
+      "tempo": 76,
+      "energia": 23
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 1,
+      "destino": 13,
+      "tempo": 174,
+      "energia": 66
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 1,
+      "destino": 14,
+      "tempo": 59,
+      "energia": 18
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 1,
+      "destino": 15,
+      "tempo": 132,
+      "energia": 51
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 1,
+      "destino": 16,
+      "tempo": 181,
+      "energia": 68
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 1,
+      "destino": 17,
+      "tempo": 128,
+      "energia": 45
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 2,
+      "destino": 1,
+      "tempo": 116,
+      "energia": 42
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 2,
+      "destino": 3,
+      "tempo": 55,
+      "energia": 22
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 2,
+      "destino": 4,
+      "tempo": 74,
+      "energia": 25
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 2,
+      "destino": 5,
+      "tempo": 65,
+      "energia": 22
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 2,
+      "destino": 6,
+      "tempo": 69,
+      "energia": 27
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 2,
+      "destino": 7,
+      "tempo": 74,
+      "energia": 38
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 2,
+      "destino": 8,
+      "tempo": 61,
+      "energia": 18
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 2,
+      "destino": 9,
+      "tempo": 103,
+      "energia": 44
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 2,
+      "destino": 10,
+      "tempo": 36,
+      "energia": 14
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 2,
+      "destino": 11,
+      "tempo": 88,
+      "energia": 41
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 2,
+      "destino": 12,
+      "tempo": 61,
+      "energia": 19
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 2,
+      "destino": 13,
+      "tempo": 95,
+      "energia": 42
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 2,
+      "destino": 14,
+      "tempo": 78,
+      "energia": 34
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 2,
+      "destino": 15,
+      "tempo": 69,
+      "energia": 30
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 2,
+      "destino": 16,
+      "tempo": 99,
+      "energia": 38
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 2,
+      "destino": 17,
+      "tempo": 46,
+      "energia": 14
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 3,
+      "destino": 1,
+      "tempo": 120,
+      "energia": 45
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 3,
+      "destino": 2,
+      "tempo": 50,
+      "energia": 22
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 3,
+      "destino": 4,
+      "tempo": 46,
+      "energia": 15
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 3,
+      "destino": 5,
+      "tempo": 46,
+      "energia": 14
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 3,
+      "destino": 6,
+      "tempo": 74,
+      "energia": 37
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 3,
+      "destino": 7,
+      "tempo": 63,
+      "energia": 23
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 3,
+      "destino": 8,
+      "tempo": 38,
+      "energia": 8
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 3,
+      "destino": 9,
+      "tempo": 84,
+      "energia": 36
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 3,
+      "destino": 10,
+      "tempo": 59,
+      "energia": 28
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 3,
+      "destino": 11,
+      "tempo": 61,
+      "energia": 27
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 3,
+      "destino": 12,
+      "tempo": 67,
+      "energia": 32
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 3,
+      "destino": 13,
+      "tempo": 67,
+      "energia": 29
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 3,
+      "destino": 14,
+      "tempo": 82,
+      "energia": 38
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 3,
+      "destino": 15,
+      "tempo": 34,
+      "energia": 8
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 3,
+      "destino": 16,
+      "tempo": 80,
+      "energia": 30
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 3,
+      "destino": 17,
+      "tempo": 36,
+      "energia": 10
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 4,
+      "destino": 1,
+      "tempo": 149,
+      "energia": 54
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 4,
+      "destino": 2,
+      "tempo": 65,
+      "energia": 24
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 4,
+      "destino": 3,
+      "tempo": 46,
+      "energia": 16
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 4,
+      "destino": 5,
+      "tempo": 27,
+      "energia": 10
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 4,
+      "destino": 6,
+      "tempo": 103,
+      "energia": 47
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 4,
+      "destino": 7,
+      "tempo": 55,
+      "energia": 27
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 4,
+      "destino": 8,
+      "tempo": 36,
+      "energia": 10
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 4,
+      "destino": 9,
+      "tempo": 50,
+      "energia": 26
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 4,
+      "destino": 10,
+      "tempo": 78,
+      "energia": 34
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 4,
+      "destino": 11,
+      "tempo": 42,
+      "energia": 19
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 4,
+      "destino": 12,
+      "tempo": 97,
+      "energia": 42
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 4,
+      "destino": 13,
+      "tempo": 44,
+      "energia": 11
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 4,
+      "destino": 14,
+      "tempo": 111,
+      "energia": 48
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 4,
+      "destino": 15,
+      "tempo": 32,
+      "energia": 13
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 4,
+      "destino": 16,
+      "tempo": 53,
+      "energia": 14
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 4,
+      "destino": 17,
+      "tempo": 38,
+      "energia": 11
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 5,
+      "destino": 1,
+      "tempo": 141,
+      "energia": 51
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 5,
+      "destino": 2,
+      "tempo": 55,
+      "energia": 20
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 5,
+      "destino": 3,
+      "tempo": 48,
+      "energia": 14
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 5,
+      "destino": 4,
+      "tempo": 25,
+      "energia": 9
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 5,
+      "destino": 6,
+      "tempo": 97,
+      "energia": 44
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 5,
+      "destino": 7,
+      "tempo": 55,
+      "energia": 28
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 5,
+      "destino": 8,
+      "tempo": 29,
+      "energia": 7
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 5,
+      "destino": 9,
+      "tempo": 48,
+      "energia": 24
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 5,
+      "destino": 10,
+      "tempo": 69,
+      "energia": 30
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 5,
+      "destino": 11,
+      "tempo": 53,
+      "energia": 26
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 5,
+      "destino": 12,
+      "tempo": 95,
+      "energia": 36
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 5,
+      "destino": 13,
+      "tempo": 63,
+      "energia": 20
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 5,
+      "destino": 14,
+      "tempo": 105,
+      "energia": 45
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 5,
+      "destino": 15,
+      "tempo": 34,
+      "energia": 14
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 5,
+      "destino": 16,
+      "tempo": 46,
+      "energia": 18
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 5,
+      "destino": 17,
+      "tempo": 27,
+      "energia": 7
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 6,
+      "destino": 1,
+      "tempo": 69,
+      "energia": 23
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 6,
+      "destino": 2,
+      "tempo": 71,
+      "energia": 27
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 6,
+      "destino": 3,
+      "tempo": 74,
+      "energia": 38
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 6,
+      "destino": 4,
+      "tempo": 103,
+      "energia": 46
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 6,
+      "destino": 5,
+      "tempo": 99,
+      "energia": 44
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 6,
+      "destino": 7,
+      "tempo": 88,
+      "energia": 48
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 6,
+      "destino": 8,
+      "tempo": 92,
+      "energia": 38
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 6,
+      "destino": 9,
+      "tempo": 134,
+      "energia": 66
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 6,
+      "destino": 10,
+      "tempo": 42,
+      "energia": 14
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 6,
+      "destino": 11,
+      "tempo": 116,
+      "energia": 56
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 6,
+      "destino": 12,
+      "tempo": 23,
+      "energia": 9
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 6,
+      "destino": 13,
+      "tempo": 126,
+      "energia": 58
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 6,
+      "destino": 14,
+      "tempo": 25,
+      "energia": 9
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 6,
+      "destino": 15,
+      "tempo": 84,
+      "energia": 44
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 6,
+      "destino": 16,
+      "tempo": 132,
+      "energia": 60
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 6,
+      "destino": 17,
+      "tempo": 80,
+      "energia": 38
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 7,
+      "destino": 1,
+      "tempo": 116,
+      "energia": 36
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 7,
+      "destino": 2,
+      "tempo": 71,
+      "energia": 38
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 7,
+      "destino": 3,
+      "tempo": 61,
+      "energia": 22
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 7,
+      "destino": 4,
+      "tempo": 53,
+      "energia": 26
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 7,
+      "destino": 5,
+      "tempo": 53,
+      "energia": 28
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 7,
+      "destino": 6,
+      "tempo": 88,
+      "energia": 48
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 7,
+      "destino": 8,
+      "tempo": 59,
+      "energia": 26
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 7,
+      "destino": 9,
+      "tempo": 88,
+      "energia": 48
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 7,
+      "destino": 10,
+      "tempo": 84,
+      "energia": 44
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 7,
+      "destino": 11,
+      "tempo": 74,
+      "energia": 22
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 7,
+      "destino": 12,
+      "tempo": 82,
+      "energia": 42
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 7,
+      "destino": 13,
+      "tempo": 76,
+      "energia": 31
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 7,
+      "destino": 14,
+      "tempo": 97,
+      "energia": 49
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 7,
+      "destino": 15,
+      "tempo": 29,
+      "energia": 16
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 7,
+      "destino": 16,
+      "tempo": 84,
+      "energia": 42
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 7,
+      "destino": 17,
+      "tempo": 69,
+      "energia": 30
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 8,
+      "destino": 1,
+      "tempo": 134,
+      "energia": 46
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 8,
+      "destino": 2,
+      "tempo": 59,
+      "energia": 18
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 8,
+      "destino": 3,
+      "tempo": 32,
+      "energia": 6
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 8,
+      "destino": 4,
+      "tempo": 34,
+      "energia": 10
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 8,
+      "destino": 5,
+      "tempo": 32,
+      "energia": 7
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 8,
+      "destino": 6,
+      "tempo": 88,
+      "energia": 38
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 8,
+      "destino": 7,
+      "tempo": 57,
+      "energia": 26
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 8,
+      "destino": 9,
+      "tempo": 69,
+      "energia": 30
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 8,
+      "destino": 10,
+      "tempo": 65,
+      "energia": 26
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 8,
+      "destino": 11,
+      "tempo": 53,
+      "energia": 22
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 8,
+      "destino": 12,
+      "tempo": 82,
+      "energia": 34
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 8,
+      "destino": 13,
+      "tempo": 61,
+      "energia": 24
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 8,
+      "destino": 14,
+      "tempo": 97,
+      "energia": 40
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 8,
+      "destino": 15,
+      "tempo": 36,
+      "energia": 12
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 8,
+      "destino": 16,
+      "tempo": 65,
+      "energia": 23
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 8,
+      "destino": 17,
+      "tempo": 32,
+      "energia": 6
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 9,
+      "destino": 1,
+      "tempo": 181,
+      "energia": 72
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 9,
+      "destino": 2,
+      "tempo": 95,
+      "energia": 41
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 9,
+      "destino": 3,
+      "tempo": 86,
+      "energia": 35
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 9,
+      "destino": 4,
+      "tempo": 55,
+      "energia": 24
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 9,
+      "destino": 5,
+      "tempo": 48,
+      "energia": 23
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 9,
+      "destino": 6,
+      "tempo": 134,
+      "energia": 65
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 9,
+      "destino": 7,
+      "tempo": 95,
+      "energia": 47
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 9,
+      "destino": 8,
+      "tempo": 69,
+      "energia": 28
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 9,
+      "destino": 10,
+      "tempo": 109,
+      "energia": 51
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 9,
+      "destino": 11,
+      "tempo": 61,
+      "energia": 29
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 9,
+      "destino": 12,
+      "tempo": 132,
+      "energia": 57
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 9,
+      "destino": 13,
+      "tempo": 67,
+      "energia": 19
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 9,
+      "destino": 14,
+      "tempo": 143,
+      "energia": 66
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 9,
+      "destino": 15,
+      "tempo": 71,
+      "energia": 34
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 9,
+      "destino": 16,
+      "tempo": 15,
+      "energia": 3
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 9,
+      "destino": 17,
+      "tempo": 67,
+      "energia": 28
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 10,
+      "destino": 1,
+      "tempo": 97,
+      "energia": 30
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 10,
+      "destino": 2,
+      "tempo": 34,
+      "energia": 14
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 10,
+      "destino": 3,
+      "tempo": 59,
+      "energia": 27
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 10,
+      "destino": 4,
+      "tempo": 78,
+      "energia": 33
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 10,
+      "destino": 5,
+      "tempo": 71,
+      "energia": 30
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 10,
+      "destino": 6,
+      "tempo": 40,
+      "energia": 14
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 10,
+      "destino": 7,
+      "tempo": 82,
+      "energia": 42
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 10,
+      "destino": 8,
+      "tempo": 65,
+      "energia": 24
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 10,
+      "destino": 9,
+      "tempo": 109,
+      "energia": 52
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 10,
+      "destino": 11,
+      "tempo": 92,
+      "energia": 46
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 10,
+      "destino": 12,
+      "tempo": 32,
+      "energia": 6
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 10,
+      "destino": 13,
+      "tempo": 99,
+      "energia": 46
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 10,
+      "destino": 14,
+      "tempo": 63,
+      "energia": 17
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 10,
+      "destino": 15,
+      "tempo": 74,
+      "energia": 34
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 10,
+      "destino": 16,
+      "tempo": 105,
+      "energia": 46
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 10,
+      "destino": 17,
+      "tempo": 53,
+      "energia": 23
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 11,
+      "destino": 1,
+      "tempo": 164,
+      "energia": 65
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 11,
+      "destino": 2,
+      "tempo": 88,
+      "energia": 41
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 11,
+      "destino": 3,
+      "tempo": 65,
+      "energia": 28
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 11,
+      "destino": 4,
+      "tempo": 42,
+      "energia": 18
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 11,
+      "destino": 5,
+      "tempo": 55,
+      "energia": 25
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 11,
+      "destino": 6,
+      "tempo": 118,
+      "energia": 57
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 11,
+      "destino": 7,
+      "tempo": 74,
+      "energia": 23
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 11,
+      "destino": 8,
+      "tempo": 59,
+      "energia": 23
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 11,
+      "destino": 9,
+      "tempo": 63,
+      "energia": 28
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 11,
+      "destino": 10,
+      "tempo": 97,
+      "energia": 46
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 11,
+      "destino": 12,
+      "tempo": 111,
+      "energia": 52
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 11,
+      "destino": 13,
+      "tempo": 25,
+      "energia": 7
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 11,
+      "destino": 14,
+      "tempo": 126,
+      "energia": 58
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 11,
+      "destino": 15,
+      "tempo": 53,
+      "energia": 25
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 11,
+      "destino": 16,
+      "tempo": 59,
+      "energia": 27
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 11,
+      "destino": 17,
+      "tempo": 67,
+      "energia": 27
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 12,
+      "destino": 1,
+      "tempo": 76,
+      "energia": 23
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 12,
+      "destino": 2,
+      "tempo": 61,
+      "energia": 19
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 12,
+      "destino": 3,
+      "tempo": 67,
+      "energia": 32
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 12,
+      "destino": 4,
+      "tempo": 97,
+      "energia": 41
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 12,
+      "destino": 5,
+      "tempo": 92,
+      "energia": 38
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 12,
+      "destino": 6,
+      "tempo": 19,
+      "energia": 8
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 12,
+      "destino": 7,
+      "tempo": 82,
+      "energia": 42
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 12,
+      "destino": 8,
+      "tempo": 86,
+      "energia": 33
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 12,
+      "destino": 9,
+      "tempo": 128,
+      "energia": 61
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 12,
+      "destino": 10,
+      "tempo": 32,
+      "energia": 6
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 12,
+      "destino": 11,
+      "tempo": 109,
+      "energia": 50
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 12,
+      "destino": 13,
+      "tempo": 120,
+      "energia": 53
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 12,
+      "destino": 14,
+      "tempo": 40,
+      "energia": 10
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 12,
+      "destino": 15,
+      "tempo": 78,
+      "energia": 38
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 12,
+      "destino": 16,
+      "tempo": 126,
+      "energia": 54
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 12,
+      "destino": 17,
+      "tempo": 74,
+      "energia": 32
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 13,
+      "destino": 1,
+      "tempo": 174,
+      "energia": 65
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 13,
+      "destino": 2,
+      "tempo": 107,
+      "energia": 35
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 13,
+      "destino": 3,
+      "tempo": 74,
+      "energia": 29
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 13,
+      "destino": 4,
+      "tempo": 46,
+      "energia": 11
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 13,
+      "destino": 5,
+      "tempo": 67,
+      "energia": 20
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 13,
+      "destino": 6,
+      "tempo": 128,
+      "energia": 57
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 13,
+      "destino": 7,
+      "tempo": 80,
+      "energia": 30
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 13,
+      "destino": 8,
+      "tempo": 76,
+      "energia": 20
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 13,
+      "destino": 9,
+      "tempo": 67,
+      "energia": 20
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 13,
+      "destino": 10,
+      "tempo": 105,
+      "energia": 47
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 13,
+      "destino": 11,
+      "tempo": 27,
+      "energia": 7
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 13,
+      "destino": 12,
+      "tempo": 122,
+      "energia": 52
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 13,
+      "destino": 14,
+      "tempo": 137,
+      "energia": 58
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 13,
+      "destino": 15,
+      "tempo": 67,
+      "energia": 17
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 13,
+      "destino": 16,
+      "tempo": 59,
+      "energia": 15
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 13,
+      "destino": 17,
+      "tempo": 78,
+      "energia": 22
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 14,
+      "destino": 1,
+      "tempo": 59,
+      "energia": 18
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 14,
+      "destino": 2,
+      "tempo": 80,
+      "energia": 35
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 14,
+      "destino": 3,
+      "tempo": 80,
+      "energia": 38
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 14,
+      "destino": 4,
+      "tempo": 109,
+      "energia": 46
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 14,
+      "destino": 5,
+      "tempo": 105,
+      "energia": 45
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 14,
+      "destino": 6,
+      "tempo": 27,
+      "energia": 9
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 14,
+      "destino": 7,
+      "tempo": 97,
+      "energia": 48
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 14,
+      "destino": 8,
+      "tempo": 99,
+      "energia": 38
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 14,
+      "destino": 9,
+      "tempo": 143,
+      "energia": 66
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 14,
+      "destino": 10,
+      "tempo": 61,
+      "energia": 17
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 14,
+      "destino": 11,
+      "tempo": 122,
+      "energia": 57
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 14,
+      "destino": 12,
+      "tempo": 42,
+      "energia": 10
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 14,
+      "destino": 13,
+      "tempo": 132,
+      "energia": 58
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 14,
+      "destino": 15,
+      "tempo": 90,
+      "energia": 44
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 14,
+      "destino": 16,
+      "tempo": 139,
+      "energia": 61
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 14,
+      "destino": 17,
+      "tempo": 86,
+      "energia": 38
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 15,
+      "destino": 1,
+      "tempo": 132,
+      "energia": 51
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 15,
+      "destino": 2,
+      "tempo": 74,
+      "energia": 30
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 15,
+      "destino": 3,
+      "tempo": 34,
+      "energia": 8
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 15,
+      "destino": 4,
+      "tempo": 36,
+      "energia": 12
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 15,
+      "destino": 5,
+      "tempo": 36,
+      "energia": 14
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 15,
+      "destino": 6,
+      "tempo": 86,
+      "energia": 44
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 15,
+      "destino": 7,
+      "tempo": 34,
+      "energia": 16
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 15,
+      "destino": 8,
+      "tempo": 42,
+      "energia": 13
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 15,
+      "destino": 9,
+      "tempo": 71,
+      "energia": 35
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 15,
+      "destino": 10,
+      "tempo": 82,
+      "energia": 36
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 15,
+      "destino": 11,
+      "tempo": 53,
+      "energia": 25
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 15,
+      "destino": 12,
+      "tempo": 80,
+      "energia": 38
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 15,
+      "destino": 13,
+      "tempo": 69,
+      "energia": 18
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 15,
+      "destino": 14,
+      "tempo": 95,
+      "energia": 45
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 15,
+      "destino": 16,
+      "tempo": 69,
+      "energia": 29
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 15,
+      "destino": 17,
+      "tempo": 53,
+      "energia": 17
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 16,
+      "destino": 1,
+      "tempo": 179,
+      "energia": 68
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 16,
+      "destino": 2,
+      "tempo": 92,
+      "energia": 37
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 16,
+      "destino": 3,
+      "tempo": 84,
+      "energia": 31
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 16,
+      "destino": 4,
+      "tempo": 57,
+      "energia": 16
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 16,
+      "destino": 5,
+      "tempo": 46,
+      "energia": 18
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 16,
+      "destino": 6,
+      "tempo": 132,
+      "energia": 60
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 16,
+      "destino": 7,
+      "tempo": 92,
+      "energia": 42
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 16,
+      "destino": 8,
+      "tempo": 67,
+      "energia": 23
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 16,
+      "destino": 9,
+      "tempo": 15,
+      "energia": 3
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 16,
+      "destino": 10,
+      "tempo": 105,
+      "energia": 46
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 16,
+      "destino": 11,
+      "tempo": 57,
+      "energia": 28
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 16,
+      "destino": 12,
+      "tempo": 130,
+      "energia": 52
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 16,
+      "destino": 13,
+      "tempo": 61,
+      "energia": 15
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 16,
+      "destino": 14,
+      "tempo": 141,
+      "energia": 61
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 16,
+      "destino": 15,
+      "tempo": 69,
+      "energia": 29
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 16,
+      "destino": 17,
+      "tempo": 65,
+      "energia": 24
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 17,
+      "destino": 1,
+      "tempo": 128,
+      "energia": 46
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 17,
+      "destino": 2,
+      "tempo": 42,
+      "energia": 14
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 17,
+      "destino": 3,
+      "tempo": 40,
+      "energia": 11
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 17,
+      "destino": 4,
+      "tempo": 42,
+      "energia": 13
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 17,
+      "destino": 5,
+      "tempo": 34,
+      "energia": 10
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 17,
+      "destino": 6,
+      "tempo": 82,
+      "energia": 38
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 17,
+      "destino": 7,
+      "tempo": 74,
+      "energia": 30
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 17,
+      "destino": 8,
+      "tempo": 29,
+      "energia": 6
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 17,
+      "destino": 9,
+      "tempo": 69,
+      "energia": 31
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 17,
+      "destino": 10,
+      "tempo": 55,
+      "energia": 24
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 17,
+      "destino": 11,
+      "tempo": 69,
+      "energia": 29
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 17,
+      "destino": 12,
+      "tempo": 80,
+      "energia": 30
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 17,
+      "destino": 13,
+      "tempo": 82,
+      "energia": 23
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 17,
+      "destino": 14,
+      "tempo": 90,
+      "energia": 38
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 17,
+      "destino": 15,
+      "tempo": 53,
+      "energia": 18
+    },
+    {
+      "camiao": "eTruck01",
+      "origem": 17,
+      "destino": 16,
+      "tempo": 67,
+      "energia": 25
+    }
+  ]
+}

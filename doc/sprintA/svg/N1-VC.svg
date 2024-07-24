@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1019px" preserveAspectRatio="none" style="width:1081px;height:1019px;background:#FFFFFF;" version="1.1" viewBox="0 0 1081 1019" width="1081px" zoomAndPan="magnify"><defs/><g><!--MD5=[3ed579485e7e42d5b6ed3ab0db38add4]
+cluster Utilizadores--><g id="cluster_Utilizadores"><path d="M175.5,465.602 L259.5,465.602 A3.75,3.75 0 0 1 262,468.102 L269,490.6699 L434.5,490.6699 A2.5,2.5 0 0 1 437,493.1699 L437,726.102 A2.5,2.5 0 0 1 434.5,728.602 L175.5,728.602 A2.5,2.5 0 0 1 173,726.102 L173,468.102 A2.5,2.5 0 0 1 175.5,465.602 " style="stroke:#000000;stroke-width:1.5;fill:none;"/><line style="stroke:#000000;stroke-width:1.5;fill:none;" x1="173" x2="269" y1="490.6699" y2="490.6699"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="83" x="177" y="482.5679">Utilizadores</text></g><!--MD5=[f4cea29e74a2c1a4783e6d1d8c3d108d]
+cluster Armazém--><g id="cluster_Armazém"><path d="M881.5,266.602 L949.5,266.602 A3.75,3.75 0 0 1 952,269.102 L959,291.6699 L1071.5,291.6699 A2.5,2.5 0 0 1 1074,294.1699 L1074,499.102 A2.5,2.5 0 0 1 1071.5,501.602 L881.5,501.602 A2.5,2.5 0 0 1 879,499.102 L879,269.102 A2.5,2.5 0 0 1 881.5,266.602 " style="stroke:#000000;stroke-width:1.5;fill:none;"/><line style="stroke:#000000;stroke-width:1.5;fill:none;" x1="879" x2="959" y1="291.6699" y2="291.6699"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="67" x="883" y="283.5679">Armazém</text></g><!--MD5=[051c87777389f2a7a7d6df78808b4292]
+cluster Entrega--><g id="cluster_Entrega"><path d="M884,525.602 L939,525.602 A3.75,3.75 0 0 1 941.5,528.102 L948.5,550.6699 L1069,550.6699 A2.5,2.5 0 0 1 1071.5,553.1699 L1071.5,755.102 A2.5,2.5 0 0 1 1069,757.602 L884,757.602 A2.5,2.5 0 0 1 881.5,755.102 L881.5,528.102 A2.5,2.5 0 0 1 884,525.602 " style="stroke:#000000;stroke-width:1.5;fill:none;"/><line style="stroke:#000000;stroke-width:1.5;fill:none;" x1="881.5" x2="948.5" y1="550.6699" y2="550.6699"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="54" x="885.5" y="542.5679">Entrega</text></g><!--MD5=[2b8531a13c1ca65bf1b4a45d22586f65]
+cluster Camiões--><g id="cluster_Camiões"><path d="M885,781.602 L945,781.602 A3.75,3.75 0 0 1 947.5,784.102 L954.5,806.6699 L1068,806.6699 A2.5,2.5 0 0 1 1070.5,809.1699 L1070.5,1010.102 A2.5,2.5 0 0 1 1068,1012.602 L885,1012.602 A2.5,2.5 0 0 1 882.5,1010.102 L882.5,784.102 A2.5,2.5 0 0 1 885,781.602 " style="stroke:#000000;stroke-width:1.5;fill:none;"/><line style="stroke:#000000;stroke-width:1.5;fill:none;" x1="882.5" x2="954.5" y1="806.6699" y2="806.6699"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="59" x="886.5" y="798.5679">Camiões</text></g><!--MD5=[43c127213c344111d438338d360665dc]
+cluster Percurso--><g id="cluster_Percurso"><path d="M881.5,6.602 L943.5,6.602 A3.75,3.75 0 0 1 946,9.102 L953,31.6699 L1071.5,31.6699 A2.5,2.5 0 0 1 1074,34.1699 L1074,240.102 A2.5,2.5 0 0 1 1071.5,242.602 L881.5,242.602 A2.5,2.5 0 0 1 879,240.102 L879,9.102 A2.5,2.5 0 0 1 881.5,6.602 " style="stroke:#000000;stroke-width:1.5;fill:none;"/><line style="stroke:#000000;stroke-width:1.5;fill:none;" x1="879" x2="953" y1="31.6699" y2="31.6699"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="61" x="883" y="23.5679">Percurso</text></g><g id="elem_AUTH"><ellipse cx="305.1162" cy="523.5252" fill="#F1F1F1" rx="87.6162" ry="19.9232" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="240.1162" y="528.2582">Autenticar via SSO</text></g><g id="elem_CCU"><ellipse cx="305.1411" cy="602.4302" fill="#F1F1F1" rx="104.6411" ry="23.3282" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="219.1411" y="607.1632">Criar Conta de Utilizador</text></g><g id="elem_CXU"><ellipse cx="304.8535" cy="686.6727" fill="#F1F1F1" rx="115.8535" ry="25.5707" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192" x="205.8535" y="691.4056">Cancelar Conta de Utilizador</text></g><g id="elem_CA"><ellipse cx="976.639" cy="322.8298" fill="#F1F1F1" rx="79.139" ry="18.2278" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="923.139" y="327.5628">Criar Armazém</text></g><g id="elem_LA"><ellipse cx="976.6378" cy="394.8295" fill="#F1F1F1" rx="81.6378" ry="18.7276" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="919.6378" y="399.5625">Listar Armazéns</text></g><g id="elem_EA"><ellipse cx="976.6378" cy="466.8295" fill="#F1F1F1" rx="81.6378" ry="18.7276" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="919.6378" y="471.5625">Editar Armazém</text></g><g id="elem_LE"><ellipse cx="976.639" cy="581.8298" fill="#F1F1F1" rx="79.139" ry="18.2278" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="923.139" y="586.5628">Listar Entregas</text></g><g id="elem_CE"><ellipse cx="976.3803" cy="652.578" fill="#F1F1F1" rx="75.3803" ry="17.4761" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="928.3803" y="657.311">Criar Entrega</text></g><g id="elem_EE"><ellipse cx="976.7473" cy="723.5514" fill="#F1F1F1" rx="77.7473" ry="17.9495" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="925.2473" y="728.2844">Editar Entrega</text></g><g id="elem_LC"><ellipse cx="976.5926" cy="837.6205" fill="#F1F1F1" rx="78.0926" ry="18.0185" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="924.5926" y="842.3535">Listar Camiões</text></g><g id="elem_CC"><ellipse cx="976.3944" cy="908.3809" fill="#F1F1F1" rx="74.3944" ry="17.2789" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="929.8944" y="913.1138">Criar Camião</text></g><g id="elem_EC"><ellipse cx="976.7218" cy="978.8463" fill="#F1F1F1" rx="76.7218" ry="17.7444" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="926.7218" y="983.5793">Editar Camião</text></g><g id="elem_LP"><ellipse cx="976.2761" cy="63.7572" fill="#F1F1F1" rx="81.2761" ry="18.6552" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="919.7761" y="68.4902">Listar Percursos</text></g><g id="elem_CP"><ellipse cx="976.4037" cy="135.4827" fill="#F1F1F1" rx="77.4037" ry="17.8807" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="925.4037" y="140.2157">Criar Percurso</text></g><g id="elem_EP"><ellipse cx="976.345" cy="207.471" fill="#F1F1F1" rx="79.845" ry="18.369" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="921.845" y="212.2039">Editar Percurso</text></g><!--MD5=[5bb58f447e60c14e9d23282c6a4405f4]
+entity ADM--><g id="elem_ADM"><ellipse cx="54.5" cy="571.602" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M54.5,579.602 L54.5,606.602 M41.5,587.602 L67.5,587.602 M54.5,606.602 L41.5,621.602 M54.5,606.602 L67.5,621.602 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="6" y="638.0679">Administrador</text></g><!--MD5=[34d31f55fcb8b2e5dee86c97beff104b]
+entity WM--><g id="elem_WM"><ellipse cx="671" cy="492.602" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M671,500.602 L671,527.602 M658,508.602 L684,508.602 M671,527.602 L658,542.602 M671,527.602 L684,542.602 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="603" y="559.0679">Gestor de Armazéns</text></g><!--MD5=[4ff3548512ed7536ef7376856685bd64]
+entity LM--><g id="elem_LM"><ellipse cx="671" cy="140.602" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M671,148.602 L671,175.602 M658,156.602 L684,156.602 M671,175.602 L658,190.602 M671,175.602 L684,190.602 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="607" y="207.0679">Gestor de Logística</text></g><!--MD5=[a89ee74bb4979dbed373b93afc1c36e4]
+entity FM--><g id="elem_FM"><ellipse cx="671" cy="841.602" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M671,849.602 L671,876.602 M658,857.602 L684,857.602 M671,876.602 L658,891.602 M671,876.602 L684,891.602 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="619.5" y="908.0679">Gestor de Frota</text></g><g id="elem_OP"><ellipse cx="671.2092" cy="61.8438" fill="#F1F1F1" rx="164.2092" ry="35.2418" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="296" x="523.2092" y="65.2758">Obter Planeamento de um Camião e um Dia</text></g><g id="elem_VA"><ellipse cx="304.934" cy="171.3888" fill="#F1F1F1" rx="141.934" ry="30.7868" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="249" x="180.434" y="174.8208">Visualizar graficamente os Armazéns</text></g><g id="elem_VR"><ellipse cx="670.8737" cy="277.5767" fill="#F1F1F1" rx="142.8737" ry="30.9747" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="251" x="545.3737" y="281.0087">Visualizar graficamente a Rede Viária</text></g><!--MD5=[31e6964a8d8e9ac6b367c2fbf295ab44]
+link ADM to AUTH--><g id="link_ADM_AUTH"><path d="M103.03,583.292 C121.59,576.062 143.15,568.042 163,561.602 C187.76,553.562 215.35,545.862 239.51,539.512 " fill="none" id="ADM-to-AUTH" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="244.61,538.182,234.8893,536.5985,239.7739,539.4516,236.9207,544.3363,244.61,538.182" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9dcffef8f3b20d39fca5e60946220037]
+link ADM to CCU--><g id="link_ADM_CCU"><path d="M103.12,602.602 C129.34,602.602 163.03,602.602 195.3,602.602 " fill="none" id="ADM-to-CCU" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="200.46,602.602,191.46,598.602,195.46,602.602,191.46,606.602,200.46,602.602" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cde1b69ca3a150341ca8b26f83cb2a21]
+link ADM to CXU--><g id="link_ADM_CXU"><path d="M103.14,621.572 C121.72,628.762 143.25,636.832 163,643.602 C184.38,650.932 207.79,658.322 229.29,664.852 " fill="none" id="ADM-to-CXU" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="234.13,666.322,226.6677,659.8943,229.3428,664.8787,224.3585,667.5538,234.13,666.322" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[06e29f45b9284b3e29ee0b37b5c443af]
+reverse link AUTH to WM--><g id="link_AUTH_WM"><path d="M398.05,523.602 C461.78,523.602 545.16,523.602 602.71,523.602 " fill="none" id="AUTH-backto-WM" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="392.72,523.602,401.72,527.602,397.72,523.602,401.72,519.602,392.72,523.602" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0cfa4b5f3883328e21f10ed8b5e4642a]
+link WM to CA--><g id="link_WM_CA"><path d="M711.07,483.792 C749.03,447.012 809.77,393.012 871,358.602 C885.93,350.212 903.16,343.292 919.26,337.842 " fill="none" id="WM-to-CA" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="924.22,336.202,914.4187,335.2356,919.4737,337.7745,916.9348,342.8296,924.22,336.202" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5ba01f6c68af86cd8a114f12f0642141]
+link WM to LA--><g id="link_WM_LA"><path d="M739.37,489.952 C777.55,471.432 826.46,448.622 871,430.602 C887.85,423.782 906.53,417.082 923.38,411.352 " fill="none" id="WM-to-LA" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="928.55,409.602,918.7436,408.6887,923.8123,411.2002,921.3008,416.269,928.55,409.602" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5a61c2873d1cb5e230c550c6e6659ebc]
+link WM to EA--><g id="link_WM_EA"><path d="M739.36,510.952 C789.59,501.522 857.9,488.692 908.13,479.252 " fill="none" id="WM-to-EA" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="913.24,478.292,903.6602,476.0056,908.3243,479.2065,905.1235,483.8707,913.24,478.292" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8e3c86a8875ba7c2835c49a903d1d01f]
+link WM to LE--><g id="link_WM_LE"><path d="M739.36,536.472 C790.35,546.222 859.97,559.522 910.4,569.162 " fill="none" id="WM-to-LE" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="915.53,570.142,907.4292,564.5405,910.6169,569.2136,905.9438,572.4014,915.53,570.142" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6dd685c3b626f09d10a2aea4a930131b]
+link WM to CE--><g id="link_WM_CE"><path d="M739.37,557.252 C777.55,575.772 826.46,598.582 871,616.602 C888.89,623.842 908.84,630.942 926.48,636.902 " fill="none" id="WM-to-CE" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="931.39,638.552,924.1228,631.9046,926.648,636.9666,921.5861,639.4918,931.39,638.552" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6b94ab4b7962ce55f1a112237ee97ca4]
+link WM to EE--><g id="link_WM_EE"><path d="M711.11,563.152 C749.11,599.702 809.87,653.362 871,687.602 C886.1,696.052 903.52,703.022 919.77,708.502 " fill="none" id="WM-to-EE" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="924.76,710.152,917.4748,703.5244,920.0137,708.5794,914.9587,711.1184,924.76,710.152" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[68b0d36c9a03c5522e8e6c156bf51dab]
+reverse link AUTH to FM--><g id="link_AUTH_FM"><path d="M385.83,535.082 C407,540.712 428.96,549.102 447,561.602 C549.39,632.552 621.42,766.402 652.64,832.962 " fill="none" id="AUTH-backto-FM" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="380.76,533.782,388.4832,539.8937,385.6031,535.0249,390.4718,532.1448,380.76,533.782" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9af2fcb1f1349b973561748f27c411b2]
+link FM to LC--><g id="link_FM_LC"><path d="M722.8,866.742 C771.51,861.122 845.63,852.582 901.02,846.192 " fill="none" id="FM-to-LC" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="906.32,845.582,896.9221,842.6359,901.3527,846.1529,897.8356,850.5835,906.32,845.582" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0f1852241641e574be3a649084d9862a]
+link FM to CC--><g id="link_FM_CC"><path d="M722.8,878.632 C772.6,884.532 848.93,893.592 904.68,900.202 " fill="none" id="FM-to-CC" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="909.67,900.792,901.1998,895.7664,904.7043,900.2069,900.2638,903.7114,909.67,900.792" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fd768e42d5ba13a1d69ada49b85df7e4]
+link FM to EC--><g id="link_FM_EC"><path d="M722.62,890.972 C762.78,905.462 820.39,926.102 871,943.602 C889.35,949.942 909.56,956.762 927.29,962.672 " fill="none" id="FM-to-EC" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="932.22,964.312,924.9528,957.6646,927.478,962.7266,922.4161,965.2518,932.22,964.312" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c7a6a37389d5a2b3145109be37831bbf]
+reverse link AUTH to LM--><g id="link_AUTH_LM"><path d="M316.36,498.642 C341,442.292 408.45,304.232 507,228.602 C536.02,206.332 574.39,192.342 606.62,183.802 " fill="none" id="AUTH-backto-LM" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="314.25,503.522,321.4894,496.8443,316.2316,498.9314,314.1445,493.6737,314.25,503.522" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7ef8c38ffc0dcaedf0248036ed75102a]
+link LM to LP--><g id="link_LM_LP"><path d="M735.24,149.582 C765.5,138.922 802.21,125.812 835,113.602 C851.09,107.612 854.88,105.512 871,99.602 C888.62,93.142 908.03,86.362 925.29,80.452 " fill="none" id="LM-to-LP" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="930.1,78.812,920.2903,77.9342,925.3681,80.4274,922.875,85.5052,930.1,78.812" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6a44c101dc02893d19fd11e4656165f3]
+link LM to CP--><g id="link_LM_CP"><path d="M735.25,164.102 C783.79,158.342 850.9,150.382 901.86,144.342 " fill="none" id="LM-to-CP" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="907.05,143.722,897.6438,140.8025,902.0843,144.307,898.5798,148.7476,907.05,143.722" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[04450a73afb52635dc8aa55d7dde4e64]
+link LM to EP--><g id="link_LM_EP"><path d="M735.25,179.102 C783.12,184.782 849.05,192.602 899.73,198.612 " fill="none" id="LM-to-EP" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="904.9,199.232,896.4315,194.2036,899.9345,198.6453,895.4928,202.1483,904.9,199.232" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[decdacad29ece5dc7326542c3f3fef3b]
+reverse link OP to LM--><g id="link_OP_LM"><path d="M671,102.062 C671,112.072 671,122.072 671,132.072 " fill="none" id="OP-backto-LM" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="671,96.832,667,105.832,671,101.832,675,105.832,671,96.832" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6d54c2eae56bdd4c4cd9151a5867ba35]
+link LM to VR--><g id="link_LM_VR"><path d="M671,211.122 C671,221.182 671,231.232 671,241.292 " fill="none" id="LM-to-VR" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="671,246.552,675,237.552,671,241.552,667,237.552,671,246.552" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d78d1376ec9fc816c369c7013d7fd281]
+reverse link VA to LM--><g id="link_VA_LM"><path d="M452.44,171.602 C506.17,171.602 564.2,171.602 606.81,171.602 " fill="none" id="VA-backto-LM" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="447.25,171.602,456.25,175.602,452.25,171.602,456.25,167.602,447.25,171.602" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b632382191b5bd2941eb948261999f0b]
+@startuml
+ left to right direction
+
+"Administrador" as ADM
+"Gestor de Armazéns" as WM
+"Gestor de Logística" as LM
+"Gestor de Frota" as FM
+
+package Utilizadores {
+  usecase "Autenticar via SSO" as AUTH
+  usecase "Criar Conta de Utilizador" as CCU
+  usecase "Cancelar Conta de Utilizador" as CXU
+}
+
+package Armazém {
+  usecase "Criar Armazém" as CA
+  usecase "Listar Armazéns" as LA
+  usecase "Editar Armazém" as EA
+}
+
+package Entrega {
+  usecase "Listar Entregas" as LE
+  usecase "Criar Entrega" as CE
+  usecase "Editar Entrega" as EE
+}
+
+package Camiões {
+  usecase "Listar Camiões" as LC
+  usecase "Criar Camião" as CC
+  usecase "Editar Camião" as EC
+}
+
+package Percurso {
+  usecase "Listar Percursos" as LP
+  usecase "Criar Percurso" as CP
+  usecase "Editar Percurso" as EP
+}
+
+usecase "Obter Planeamento de um Camião e um Dia" as OP
+usecase "Visualizar graficamente os Armazéns" as VA
+usecase "Visualizar graficamente a Rede Viária" as VR
+
+
+ADM - -> AUTH
+ADM - -> CCU
+ADM - -> CXU
+
+WM -up-> AUTH
+WM - -> CA
+WM - -> LA
+WM - -> EA
+WM - -> LE
+WM - -> CE
+WM - -> EE
+
+FM -up-> AUTH
+FM - -> LC
+FM - -> CC
+FM - -> EC
+
+LM -up-> AUTH
+LM - -> LP
+LM - -> CP
+LM - -> EP
+LM -left-> OP
+LM -right-> VR
+LM -up-> VA
+
+@enduml
+
+PlantUML version 1.2022.6(Tue Jun 21 18:34:49 WEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

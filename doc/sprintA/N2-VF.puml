@@ -1,0 +1,36 @@
+@startuml
+
+node "Dispositivo do Utilizador" as U {
+  frame "Navegador Web" {
+    component [User Interface - código cliente]
+  } 
+}
+
+node "Web Server 1" as H {
+	component [User Interface - SPA] <<container>>
+}
+
+node "Web Server 2" as A {
+	component [Authz] <<container>>
+}
+
+node "Web Server 3" as W {
+	component [Warehouse\nManagement] <<container>>
+}
+
+node "Web Server 4" as L {
+	component [Logistics] <<container>>
+}
+
+node "Web Server 5" as P {
+	component [Planning] <<container>>
+}
+
+H -- U: https
+U -down- A: https
+U -- W: https
+U -left- L: https
+L -- P: https
+L -- W: https
+
+@enduml

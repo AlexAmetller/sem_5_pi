@@ -1,0 +1,16 @@
+@startuml
+actor "Gestor de Armazéns" as A
+participant "<i><<Container>></i>\nUser Interface - SPA" as S
+participant "<i><<Container>></i>\nWarehouse Management" as W
+
+A -> S: Inicia o pedido de criacao de um Empacotamento
+S --> A: Solicita os dados do Percurso\n<i>(Posição X, Posição Y, Posição Z,</i>\n<i>Tempo de colocação, Tempo de retirada, ID da entrega)</i>
+
+A -> S: Fornece os dados do Empacotamento
+S -> W: POST /empacotamento - criar Empacotamento
+W -> W: Valida os dados do Empacotamento
+W -> W: Regista o Empacotamento
+W --> S: 200 OK
+S --> A: Confirma que o Empacotamento foi criado com sucesso
+
+@enduml

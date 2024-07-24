@@ -1,0 +1,16 @@
+@startuml
+actor "Gestor de Frota" as A
+participant "<i><<System>></i>ElectricGo" as S
+
+A -> S: Inicia a edicão de um Empacotamento
+S --> A: Fornece a lista de Empacotamentos
+
+A -> S: Seleciona o Empacotamento desejado
+S --> A: Solicita os dados do Empacotamento\n<i>(Posição X, Posição Y, Posição Z,</i>\n<i>Tempo de colocação, Tempo de retirada, ID da entrega)</i>
+
+A -> S: Fornece os dados do Empacotamento
+S -> S: Verifica/valida os dados do Empacotamento
+S -> S: Regista o Empacotamento
+S --> A: Confirma que o Empacotamento foi editado com sucesso
+
+@enduml

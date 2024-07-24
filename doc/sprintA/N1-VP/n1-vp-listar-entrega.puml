@@ -1,0 +1,15 @@
+@startuml
+actor "Gestor de Armazéns" as A
+participant "<i><<System>></i>ElectricGo" as S
+
+alt Listar todos os Entregas
+
+	A -> S: Realiza o pedido de listagem de Entregas
+	S --> A: Apresenta uma lista com todos as Entregas
+
+else Listar um Entrega por Identificador
+
+	A -> S: Realiza o pedido de listagem de um Entregas pelo Identificador
+	S --> A: Apresenta todos os dados da Entrega solicitada
+
+@enduml

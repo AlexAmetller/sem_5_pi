@@ -1,0 +1,61 @@
+@startuml
+participant "User Interface" as UI
+participant "Router" as Router
+participant "DeliveryController" as Controller
+participant "DeliveryService" as Service
+
+participant "DeliveryRepository" as Repository
+participant "DeliveryMapper" as Mapper
+participant "DeliveryUpdateResponseDTO" as UpdateResponseDTO
+participant "DeliverySchema" as Schema
+participant "DeliveryModel" as Model
+participant "DeliveryUpdateRequestDTO" as UpdateRequestDTO
+participant "Persistence" as Persistence
+
+
+UI -> Router: POST /delivery (json)
+Router -> Controller: responseDTO =\ncreateDelivery(json)
+Controller -> Controller: validate(json)
+Controller -> Mapper: requestDTO = createUpdateDTO()
+
+create UpdateRequestDTO
+Mapper -> UpdateRequestDTO: requestDTO: <<new>>
+
+Controller -> Service: responseDTO =\nupdate(requestDTO)
+
+Service -> Service: validate(requestDTO)
+
+Service -> Mapper: delivery = toModel(requestDTO)
+
+create Model
+Mapper -> Model: delivery: <<new>>
+
+Service -> Repository: entity =\nupdate(delivery)
+
+Repository -> Mapper: schema = toSchema(entity)
+
+create Schema
+Mapper -> Schema: schema: <<new>>
+
+Repository -> Persistence: entity = findOne(schema)
+
+Repository -> Repository: verifyEntityExists(entity)
+
+Repository -> Persistence: persist(schema)
+
+Repository -> Mapper: entity = toModel(schema)
+Mapper -> Model: entity: <<new>>
+Repository --> Service: entity
+
+
+Service -> Mapper: responseDTO = updateResponseDTO(entity)
+create UpdateResponseDTO
+Mapper -> UpdateResponseDTO: responseDTO <<new>>
+
+Service --> Controller: responseDTO
+
+Controller --> Router: responseDTO
+
+Router --> UI: HTTP 201 OK\njson(responseDTO)
+
+@enduml

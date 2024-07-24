@@ -1,0 +1,16 @@
+@startuml
+actor "Gestor de Armazéns" as A
+participant "<i><<Container>></i>\nUser Interface - SPA" as S
+participant "<i><<Container>></i>\nWarehouse Management" as W
+
+A -> S: Inicia o pedido de criacao de um Armazém
+S --> A: Solicita os dados do Armazém\n(Identificador, Designacao, Endereco, Coordenadas)
+
+A -> S: Fornece os dados do Armazém
+S -> W: POST /armazem - criar Armazém
+W -> W: Valida os dados do Armazém
+W -> W: Regista o Armazém
+W --> S: 200 OK
+S --> A: Confirma que o Armazém foi criado com sucesso
+
+@enduml
